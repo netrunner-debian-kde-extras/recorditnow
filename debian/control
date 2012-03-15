@@ -3,27 +3,27 @@ Section: video
 Priority: optional
 Maintainer: Eshat Cakar <info@eshat.de>
 Build-Depends: debhelper (>= 8.0.0),
-               pkg-kde-tools,
-               pkg-config,
-               cmake,
-               kdelibs5-dev,
-               libx11-dev,
-               libxcursor-dev,
-               libxext-dev,
-               libxfixes-dev,
-	       ffmpeg,
-	       mencoder,
-	       recordmydesktop
+ pkg-kde-tools,
+ pkg-config,
+ cmake,
+ kdelibs5-dev,
+ libx11-dev,
+ libxcursor-dev,
+ libxext-dev,
+ libxfixes-dev,
+ ffmpeg,
+mencoder,
+recordmydesktop
 Standards-Version: 3.9.3
 Homepage: http://recorditnow.sourceforge.net/
 
 Package: recorditnow
 Architecture: any
-Depends: ${shlibs:Depends}, 
-	 ${misc:Depends}, 
-	 recordmydesktop
-Suggests: mencoder, 
-	  ffmpeg
+Depends: ${shlibs:Depends},
+ ${misc:Depends},
+ recordmydesktop
+Suggests: mencoder,
+ ffmpeg
 Description: Qt/KDE frontend for recordmydesktop
  RecordItNow is a Qt/KDE frontend for recordmydesktop. It additionally
  supports ffmpeg and mencoder for encoding.
