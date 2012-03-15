@@ -1,0 +1,26 @@
+[Desktop Entry] 
+Encoding=UTF-8
+Name=RecordMyDesktop
+Comment=RecordMyDesktop Plugin: http://recordmydesktop.sourceforge.net/about.php
+Icon=media-record
+Type=Service                                                                               
+X-KDE-ServiceTypes=RecordItNowRecorder                                                      
+X-KDE-Library=recorditnow_recordmydesktop
+X-KDE-PluginInfo-Name=RecordMyDesktopRecorder
+X-KDE-PluginInfo-Category=Recorder
+X-KDE-PluginInfo-Author=Kai Dombrowe
+X-KDE-PluginInfo-Email=just89@gmx.de
+X-KDE-PluginInfo-Version=0.8
+X-KDE-PluginInfo-Website=http://recorditnow.sourceforge.net/index.html
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-EnabledByDefault=true
+
+X-RecordItNow-FPS=true
+X-RecordItNow-Sound=true
+X-RecordItNow-Pause=true
+X-RecordItNow-Stop=true
+X-RecordItNow-DefaultFile=desktop_video.ogv
+X-RecordItNow-TimelineEnabled=true
+X-RecordItNow-MouseEnabled=true
+X-RecordItNow-KeyboardEnabled=true
+

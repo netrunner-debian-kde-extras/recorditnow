@@ -1,0 +1,10 @@
+[Domain] 
+Name=RecordItNow
+Icon=recorditnow
+
+
+[org.kde.recorditnow.helper.watch]
+Name=Read Keyboard/Mouse events
+Description=Opens a device file
+Policy=auth_self
+Persistence=session

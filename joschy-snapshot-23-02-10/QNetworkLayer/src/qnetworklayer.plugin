@@ -1,0 +1,6 @@
+[Joschy::Plugin]
+Name=QNetworkLayer
+Description=Qt based layer
+Version=0.1
+Type=0
+Library=joschyqnetworklayer

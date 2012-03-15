@@ -1,0 +1,7 @@
+
+# install recordmydesktop + KDE
+# build JoschyCore
+# build RecordItNow
+
+chmod +x install.sh
+sudo sh install.sh

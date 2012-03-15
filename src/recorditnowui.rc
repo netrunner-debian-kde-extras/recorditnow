@@ -1,0 +1,24 @@
+<!DOCTYPE kpartgui SYSTEM "kpartgui.dtd">
+<kpartgui name="RecordItNow" version="1">
+
+<MenuBar>
+</MenuBar>
+
+<ToolBar iconText="icononly" name="mainToolBar" newline="false" noMerge="0"><text>Main Toolbar</text>
+ <Action name="record"/>
+ <Action name="pause"/>
+ <Action name="stop"/>
+ <Separator/>
+ <Action name="recordWindow"/>
+ <Action name="box"/>
+ <Action name="recordFullScreen"/>
+ <Separator/>
+ <Action name="upload"/>
+ <Separator/>
+ <Action name="options_configure"/>
+ <Separator/>
+ <Action name="help_about_app"/>
+ <Action name="help_about_kde"/>
+</ToolBar>
+
+</kpartgui>

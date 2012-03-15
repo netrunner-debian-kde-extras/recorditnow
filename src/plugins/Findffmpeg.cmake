@@ -1,0 +1,4 @@
+FIND_PROGRAM(BIN ffmpeg)
+if(BIN)
+   SET(FFMPEG_FOUND TRUE)
+endif(BIN)

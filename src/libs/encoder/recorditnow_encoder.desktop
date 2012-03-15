@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=ServiceType
+X-KDE-ServiceType=RecordItNowEncoder
+X-KDE-PluginInfo-Version=0.3
+Name=RecordItNow Encoder lib

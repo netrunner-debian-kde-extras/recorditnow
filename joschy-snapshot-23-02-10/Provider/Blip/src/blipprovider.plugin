@@ -1,0 +1,7 @@
+[Joschy::Plugin]
+Name=Blip.tv
+Description=Blip.tv Provider
+Version=0.1
+Type=1
+Icon=joschycore-blip.png
+Library=joschyblip

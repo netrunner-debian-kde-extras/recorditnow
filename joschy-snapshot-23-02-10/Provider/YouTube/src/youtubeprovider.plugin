@@ -1,0 +1,7 @@
+[Joschy::Plugin]
+Name=YouTube
+Description=YouTube Provider
+Icon=joschycore-youtube
+Version=0.1
+Type=1
+Library=joschyyoutube

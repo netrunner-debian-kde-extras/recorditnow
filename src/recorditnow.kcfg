@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <kcfgfile name="recorditnowrc"/>
+  <include>QtCore/QDir</include>
+  <include>kstandarddirs.h</include>
+  <include>kglobal.h</include>
+  <include>kglobalsettings.h</include>
+  <group name="Preferences">
+    <entry name="hideOnRecord" type="Bool">
+	    <default>false</default>
+    </entry>
+    <entry name="tray" type="Bool">
+            <default>true</default>
+    </entry>
+    <entry name="showVideo" type="Bool">
+            <default>false</default>
+    </entry>
+    <entry name="encode" type="Bool">
+            <default>false</default>
+    </entry>
+    <entry name="encoderName" type="String">
+    </entry>
+    <entry name="overwrite" type="Bool">
+            <default>false</default>
+    </entry>
+    <entry name="workDir" type="Url">
+            <default code="true">KGlobal::dirs()->locateLocal("tmp", "")</default>
+    </entry>
+    <entry name="videoDir" type="Url">
+            <default code="true">KGlobalSettings::videosPath()</default>
+    </entry>
+  </group>
+  <group name="GUI">
+    <entry name="currentBackend" type="String">
+            <default>RecordMyDesktop</default>
+    </entry>
+    <entry name="soundEnabled" type="Bool">
+            <default>true</default>
+    </entry>
+    <entry name="currentFps" type="Int">
+            <default>18</default>
+    </entry>
+    <entry name="currentFrame" type="Rect">
+    </entry>
+    <entry name="currentTime" type="Int">
+            <default>6</default>
+    </entry>
+    <entry name="stayOnTop" type="Bool">
+            <default>false</default>
+    </entry>
+  </group>
+ <group name="Mouse">
+    <entry name="showActivity" type="Bool">
+            <default>false</default>
+    </entry>
+    <entry name="cursorWidgetSize" type="Int">
+            <default>20</default>
+    </entry>
+    <entry name="keyMonDevice" type="String">
+    </entry>
+    <entry name="led" type="Bool">
+            <default>false</default>
+    </entry>
+    <entry name="circle" type="String">
+            <default>true</default>
+    </entry>
+    <entry name="cursorOpacity" type="Int">
+            <default>50</default>
+    </entry>
+    <entry name="mouseWidgetAlwaysVisible" type="Bool">
+            <default>true</default>
+    </entry>
+    <entry name="mouseWidgetInvisible" type="Bool">
+            <default>false</default>
+    </entry>
+  </group>
+  <group name="Keyboard">
+    <entry name="enableKeyboard" type="Bool">
+            <default>false</default>
+    </entry>
+    <entry name="keyboardDevice" type="String">
+    </entry>
+    <entry name="keySize" type="Int">
+            <default>50</default>
+    </entry>
+  </group>
+  <group name="Zoom">
+    <entry name="zoomDockEnabled" type="Bool">
+            <default>false</default>
+    </entry>
+    <entry name="zoomFactor" type="Int">
+            <default>2</default>
+    </entry>
+    <entry name="zoomWidth" type="Int">
+            <default>200</default>
+    </entry>
+    <entry name="zoomHeight" type="Int">
+            <default>200</default>
+    </entry>
+    <entry name="zoomFollow" type="Bool">
+            <default>true</default>
+    </entry>
+    <entry name="zoomHighQuality" type="Bool">
+            <default>true</default>
+    </entry>
+    <entry name="zoomFps" type="Int">
+            <default>18</default>
+    </entry>
+  </group>
+ <group name="TimeLine">
+    <entry name="showTimeLine" type="Bool">
+            <default>false</default>
+    </entry>
+    <entry name="timeLineStop" type="Bool">
+            <default>true</default>
+    </entry>
+    <entry name="timelineNotifications" type="Bool">
+            <default>false</default>
+    </entry>
+  </group>
+ <group name="Upload">
+    <entry name="uploadPassword" type="Bool">
+            <default>false</default>
+    </entry>
+  </group>
+ <group name="Misc">
+    <entry name="firstStart" type="Bool">
+            <default>true</default>
+    </entry>
+  </group>  
+</kcfg>

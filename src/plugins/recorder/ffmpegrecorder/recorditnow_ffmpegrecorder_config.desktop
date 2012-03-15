@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Service
+X-KDE-ServiceTypes=KCModule
+
+X-KDE-Library=recorditnow_ffmpegrecorder_config
+X-KDE-ParentComponents=FfmpegRecorder
+
+Name=ffmpeg recorder Config

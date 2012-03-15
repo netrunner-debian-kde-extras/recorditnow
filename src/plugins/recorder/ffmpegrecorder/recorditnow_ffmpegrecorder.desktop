@@ -1,0 +1,27 @@
+[Desktop Entry] 
+Encoding=UTF-8
+Name=ffmpeg-recorder
+Comment=ffmpeg recorder
+Icon=media-record
+Type=Service                                                                               
+X-KDE-ServiceTypes=RecordItNowRecorder                                                      
+X-KDE-Library=recorditnow_ffmpegrecorder
+X-KDE-PluginInfo-Name=FfmpegRecorder
+X-KDE-PluginInfo-Category=Recorder
+X-KDE-PluginInfo-Author=Kai Dombrowe
+X-KDE-PluginInfo-Email=just89@gmx.de
+X-KDE-PluginInfo-Version=0.8
+X-KDE-PluginInfo-Website=http://recorditnow.sourceforge.net/index.html
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-EnabledByDefault=true
+
+X-RecordItNow-FPS=true
+X-RecordItNow-Sound=false
+X-RecordItNow-Pause=true
+X-RecordItNow-Stop=true
+X-RecordItNow-ConfigGroup=FfmpegRecorder
+X-RecordItNow-DefaultFile=desktop_video.${config:format:mp4}
+X-RecordItNow-TimelineEnabled=true
+X-RecordItNow-MouseEnabled=true
+X-RecordItNow-KeyboardEnabled=true
+

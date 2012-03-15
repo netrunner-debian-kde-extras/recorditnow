@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RecordMyDesktop</class>
+ <widget class="QWidget" name="RecordMyDesktop">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>383</width>
+    <height>221</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string notr="true"/>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <widget class="KTabWidget" name="ktabwidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Image</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <layout class="QFormLayout" name="formLayout">
+         <property name="fieldGrowthPolicy">
+          <enum>QFormLayout::ExpandingFieldsGrow</enum>
+         </property>
+         <property name="rowWrapPolicy">
+          <enum>QFormLayout::WrapLongRows</enum>
+         </property>
+         <item row="1" column="0" colspan="2">
+          <widget class="QCheckBox" name="kcfg___no_cursor">
+           <property name="text">
+            <string>Disable drawing of the cursor</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0" colspan="2">
+          <widget class="QCheckBox" name="kcfg___no_shared">
+           <property name="text">
+            <string>Disable usage of MIT-shared memory extension(Not Recommended!)</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0" colspan="2">
+          <widget class="QCheckBox" name="kcfg___full_shots">
+           <property name="text">
+            <string>Take full screenshot at every frame(Not Recommended!)</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0" colspan="2">
+          <widget class="QCheckBox" name="kcfg___subsampling">
+           <property name="text">
+            <string>Quick subsampling</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>Sound</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <layout class="QFormLayout" name="formLayout_2">
+         <property name="fieldGrowthPolicy">
+          <enum>QFormLayout::ExpandingFieldsGrow</enum>
+         </property>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_5">
+           <property name="text">
+            <string>Device:</string>
+           </property>
+           <property name="buddy">
+            <cstring>kcfg___device</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <widget class="KLineEdit" name="kcfg___device">
+             <property name="text">
+              <string notr="true">hw:0,0</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="KPushButton" name="deviceButton">
+             <property name="text">
+              <string>Search</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>Channels:</string>
+           </property>
+           <property name="buddy">
+            <cstring>kcfg___channels</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="KIntNumInput" name="kcfg___channels">
+           <property name="value">
+            <number>-1</number>
+           </property>
+           <property name="minimum">
+            <number>-1</number>
+           </property>
+           <property name="specialValueText">
+            <string>Default</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>Frequency:</string>
+           </property>
+           <property name="buddy">
+            <cstring>kcfg___freq</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="KIntNumInput" name="kcfg___freq">
+           <property name="value">
+            <number>-1</number>
+           </property>
+           <property name="minimum">
+            <number>-1</number>
+           </property>
+           <property name="specialValueText">
+            <string>Default</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="label_3">
+           <property name="text">
+            <string>Buffer size (only ALSA or OSS):</string>
+           </property>
+           <property name="buddy">
+            <cstring>kcfg___buffer_size</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="KIntNumInput" name="kcfg___buffer_size">
+           <property name="value">
+            <number>-1</number>
+           </property>
+           <property name="minimum">
+            <number>-1</number>
+           </property>
+           <property name="specialValueText">
+            <string>Default</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="0">
+          <widget class="QLabel" name="label_4">
+           <property name="text">
+            <string>Ring Buffer size (JACK only):</string>
+           </property>
+           <property name="buddy">
+            <cstring>kcfg___ring_buffer_size</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1">
+          <widget class="KIntNumInput" name="kcfg___ring_buffer_size">
+           <property name="value">
+            <number>-1</number>
+           </property>
+           <property name="minimum">
+            <number>-1</number>
+           </property>
+           <property name="specialValueText">
+            <string>Default</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="0">
+          <widget class="QLabel" name="label_6">
+           <property name="text">
+            <string>JACK Ports:</string>
+           </property>
+           <property name="buddy">
+            <cstring>kcfg___use_jack</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="1">
+          <widget class="KLineEdit" name="kcfg___use_jack"/>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_3">
+      <attribute name="title">
+       <string>Encoding</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_6">
+       <item row="0" column="0">
+        <layout class="QFormLayout" name="formLayout_3">
+         <item row="1" column="1">
+          <widget class="KIntNumInput" name="kcfg___v_quality">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimum">
+            <number>0</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+           <property name="suffix">
+            <string notr="true"> %</string>
+           </property>
+           <property name="specialValueText">
+            <string notr="true"/>
+           </property>
+           <property name="sliderEnabled">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="lab_2">
+           <property name="text">
+            <string>Audio Quality:</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+           <property name="buddy">
+            <cstring>kcfg___s_quality</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="KIntNumInput" name="kcfg___s_quality">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimum">
+            <number>0</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+           <property name="suffix">
+            <string notr="true"> %</string>
+           </property>
+           <property name="sliderEnabled">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="lab_3">
+           <property name="text">
+            <string>Bitrate:</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+           <property name="buddy">
+            <cstring>kcfg___v_bitrate</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="KIntNumInput" name="kcfg___v_bitrate">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimum">
+            <number>45000</number>
+           </property>
+           <property name="maximum">
+            <number>2000000</number>
+           </property>
+           <property name="sliderEnabled">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="lab">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>Video Quality:</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+           <property name="buddy">
+            <cstring>kcfg___v_quality</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0" colspan="2">
+          <widget class="QCheckBox" name="kcfg___on_the_fly_encoding">
+           <property name="text">
+            <string>Encode the audio-video data, while recording</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_4">
+      <attribute name="title">
+       <string>Miscellaneous</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <layout class="QFormLayout" name="formLayout_4">
+         <property name="fieldGrowthPolicy">
+          <enum>QFormLayout::ExpandingFieldsGrow</enum>
+         </property>
+         <item row="0" column="0" colspan="2">
+          <widget class="QCheckBox" name="kcfg___no_wm_check">
+           <property name="text">
+            <string>Do not try to detect the window manager.</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0" colspan="2">
+          <widget class="QCheckBox" name="kcfg___compress_cache">
+           <property name="text">
+            <string>Compress Cache</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0" colspan="2">
+          <widget class="QCheckBox" name="kcfg_followMouse">
+           <property name="text">
+            <string>Follow the mouse</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0" colspan="2">
+          <widget class="QCheckBox" name="kcfg_frame">
+           <property name="text">
+            <string>Show Frame</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>KPushButton</class>
+   <extends>QPushButton</extends>
+   <header>kpushbutton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>KLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>klineedit.h</header>
+  </customwidget>
+  <customwidget>
+   <class>KTabWidget</class>
+   <extends>QTabWidget</extends>
+   <header>ktabwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>KIntNumInput</class>
+   <extends>QWidget</extends>
+   <header>knuminput.h</header>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>ktabwidget</tabstop>
+  <tabstop>kcfg___no_cursor</tabstop>
+  <tabstop>kcfg___no_shared</tabstop>
+  <tabstop>kcfg___full_shots</tabstop>
+  <tabstop>kcfg___subsampling</tabstop>
+  <tabstop>kcfg___device</tabstop>
+  <tabstop>deviceButton</tabstop>
+  <tabstop>kcfg___channels</tabstop>
+  <tabstop>kcfg___freq</tabstop>
+  <tabstop>kcfg___buffer_size</tabstop>
+  <tabstop>kcfg___ring_buffer_size</tabstop>
+  <tabstop>kcfg___use_jack</tabstop>
+  <tabstop>kcfg___on_the_fly_encoding</tabstop>
+  <tabstop>kcfg___v_quality</tabstop>
+  <tabstop>kcfg___s_quality</tabstop>
+  <tabstop>kcfg___v_bitrate</tabstop>
+  <tabstop>kcfg___no_wm_check</tabstop>
+  <tabstop>kcfg___compress_cache</tabstop>
+  <tabstop>kcfg_followMouse</tabstop>
+  <tabstop>kcfg_frame</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,12 @@
+[Desktop Entry]
+
+GenericName=Desktop recorder
+GenericName[de]=Desktop Recorder
+
+Name=RecordItNow
+Name[de]=RecordItNow
+
+Exec=recorditnow
+Icon=recorditnow
+Type=Application
+Categories=Qt;KDE;AudioVideo;

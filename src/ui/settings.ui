@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Settings</class>
+ <widget class="QWidget" name="Settings">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>373</width>
+    <height>315</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string notr="true"/>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="sizeConstraint">
+    <enum>QLayout::SetMinAndMaxSize</enum>
+   </property>
+   <item row="0" column="0">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string>Behavior </string>
+     </property>
+     <layout class="QFormLayout" name="formLayout_3">
+      <property name="fieldGrowthPolicy">
+       <enum>QFormLayout::ExpandingFieldsGrow</enum>
+      </property>
+      <item row="0" column="0" colspan="2">
+       <widget class="QCheckBox" name="kcfg_tray">
+        <property name="text">
+         <string>Enable system tray icon</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0" colspan="2">
+       <widget class="QCheckBox" name="kcfg_hideOnRecord">
+        <property name="text">
+         <string>Hide RecordItNow during record</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0" colspan="2">
+       <widget class="QCheckBox" name="kcfg_overwrite">
+        <property name="text">
+         <string>Overwrite existing files</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0" colspan="2">
+       <widget class="QCheckBox" name="kcfg_showVideo">
+        <property name="text">
+         <string>Show file after record</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0">
+       <widget class="QCheckBox" name="kcfg_encode">
+        <property name="text">
+         <string>Encode after record</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="1">
+       <widget class="KComboBox" name="encoderCombo">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="insertPolicy">
+         <enum>QComboBox::InsertAlphabetically</enum>
+        </property>
+        <property name="sizeAdjustPolicy">
+         <enum>QComboBox::AdjustToContents</enum>
+        </property>
+        <property name="frame">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0" colspan="2">
+       <widget class="QCheckBox" name="kcfg_stayOnTop">
+        <property name="text">
+         <string>Stay above all other windows during record</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="title">
+      <string>Directories</string>
+     </property>
+     <layout class="QFormLayout" name="formLayout_4">
+      <property name="fieldGrowthPolicy">
+       <enum>QFormLayout::ExpandingFieldsGrow</enum>
+      </property>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Videos:</string>
+        </property>
+        <property name="buddy">
+         <cstring>kcfg_videoDir</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="KUrlRequester" name="kcfg_videoDir">
+        <property name="mode">
+         <set>KFile::Directory|KFile::ExistingOnly|KFile::LocalOnly</set>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Temporary files:</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+        <property name="buddy">
+         <cstring>kcfg_workDir</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="KUrlRequester" name="kcfg_workDir">
+        <property name="mode">
+         <set>KFile::Directory|KFile::ExistingOnly|KFile::LocalOnly</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>KUrlRequester</class>
+   <extends>QFrame</extends>
+   <header>kurlrequester.h</header>
+  </customwidget>
+  <customwidget>
+   <class>KComboBox</class>
+   <extends>QComboBox</extends>
+   <header>kcombobox.h</header>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>kcfg_tray</tabstop>
+  <tabstop>kcfg_hideOnRecord</tabstop>
+  <tabstop>kcfg_stayOnTop</tabstop>
+  <tabstop>kcfg_overwrite</tabstop>
+  <tabstop>kcfg_showVideo</tabstop>
+  <tabstop>kcfg_encode</tabstop>
+  <tabstop>encoderCombo</tabstop>
+  <tabstop>kcfg_videoDir</tabstop>
+  <tabstop>kcfg_workDir</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>kcfg_encode</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>encoderCombo</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>62</x>
+     <y>153</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>91</x>
+     <y>225</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

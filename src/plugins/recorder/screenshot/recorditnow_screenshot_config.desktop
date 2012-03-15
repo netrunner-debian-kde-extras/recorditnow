@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Service
+X-KDE-ServiceTypes=KCModule
+
+X-KDE-Library=recorditnow_screenshot_config
+X-KDE-ParentComponents=ScreenshotRecorder
+
+Name=Screenshot Config

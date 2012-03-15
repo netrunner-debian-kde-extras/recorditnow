@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TermsPage</class>
+ <widget class="QWizardPage" name="TermsPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>102</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string notr="true"/>
+  </property>
+  <property name="title">
+   <string>Terms of Service </string>
+  </property>
+  <attribute name="pageId">
+   <string notr="true">3</string>
+  </attribute>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="KTextBrowser" name="termsBrowser"/>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="termsCheck">
+     <property name="text">
+      <string notr="true">I agree</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>KTextBrowser</class>
+   <extends>QTextBrowser</extends>
+   <header>ktextbrowser.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

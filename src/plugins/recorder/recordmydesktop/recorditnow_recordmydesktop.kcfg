@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <kcfgfile name="recorditnowrc"/>
+  <group name="RecordMyDesktop">
+    <entry name="__no_cursor" type="Bool">
+	    <label></label>
+	    <default>false</default>
+    </entry>
+    <entry name="__no_shared" type="Bool">
+            <label></label>
+            <default>false</default>
+    </entry>
+    <entry name="__full_shots" type="Bool">
+            <label></label>
+            <default>false</default>
+    </entry>
+    <entry name="__subsampling" type="Bool">
+            <default>false</default>
+    </entry>
+    <entry name="__channels" type="Int">
+            <default>-1</default>
+    </entry>
+    <entry name="__freq" type="Int">
+            <default>-1</default>
+    </entry>
+    <entry name="__buffer_size" type="Int">
+            <default>-1</default>
+    </entry>
+    <entry name="__ring_buffer_size" type="Int">
+            <default>-1</default>
+    </entry>
+    <entry name="__device" type="String">
+            <default>hw:0,0</default>
+    </entry>
+    <entry name="__use_jack" type="String">
+            <default></default>
+    </entry>
+    <entry name="__on_the_fly_encoding" type="Bool">
+            <default>false</default>
+    </entry>
+    <entry name="__v_quality" type="Int">
+            <default>100</default>
+    </entry>
+    <entry name="__v_bitrate" type="Int">
+            <default>45000</default>
+    </entry>
+    <entry name="__s_quality" type="Int">
+            <default>100</default>
+    </entry>
+    <entry name="__no_wm_check" type="Bool">
+            <default>false</default>
+    </entry>
+    <entry name="__compress_cache" type="Bool">
+            <default>false</default>
+    </entry>
+    <entry name="followMouse" type="Bool">
+            <default>false</default>
+    </entry>
+    <entry name="frame" type="Bool">
+            <default>true</default>
+    </entry>
+  </group>
+</kcfg>

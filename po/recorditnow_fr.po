@@ -1,0 +1,2417 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Sebastien Vrillaud <kochka@gmail.com>, 2009.
+# Sébastien Vrillaud <kochka@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: just89@gmx.de\n"
+"POT-Creation-Date: 2010-03-03 13:43+0100\n"
+"PO-Revision-Date: 2009-12-21 17:40+0100\n"
+"Last-Translator: Sébastien Vrillaud <kochka@gmail.com>\n"
+"Language-Team: French <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: config/configdialog.cpp:96 main.cpp:37 mainwindow.cpp:533
+msgid "RecordItNow"
+msgstr "RecordItNow"
+
+#: config/configdialog.cpp:97
+msgid "Plugins"
+msgstr "Modules externes"
+
+#: config/configdialog.cpp:98
+#, fuzzy
+msgctxt "Widget to select a screen area"
+msgid "Frame"
+msgstr "Afficher le cadre"
+
+#: config/configdialog.cpp:99 devicesearchdialog.cpp:66
+msgid "Mouse"
+msgstr "Souris"
+
+#: config/configdialog.cpp:100 devicesearchdialog.cpp:67
+msgid "Keyboard"
+msgstr ""
+
+#. i18n: file: ui/zoomdocktitlewidget.ui:26
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: file: ui/zoomdock.ui:17
+#. i18n: ectx: property (windowTitle), widget (QDockWidget, ZoomDock)
+#: config/configdialog.cpp:101 rc.cpp:509 rc.cpp:512
+msgid "Zoom"
+msgstr "Zoom"
+
+#. i18n: file: ui/timelinedocktitlewidget.ui:26
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: config/configdialog.cpp:102 timeline/timelinedock.cpp:34 rc.cpp:454
+msgid "Timeline"
+msgstr "Barre de temps"
+
+#: config/configdialog.cpp:103
+msgid "Shortcuts"
+msgstr "Racourcis"
+
+#: config/keyboardconfig.cpp:216
+msgid "There is already a key with code '%1' in your list!"
+msgstr ""
+
+#: config/keyboardkeyiconpage.cpp:124
+#, fuzzy
+msgid "No name"
+msgstr "Nom"
+
+#: config/keyboardkeyiconpage.cpp:126
+msgid "Unknown"
+msgstr "Inconnu"
+
+#: config/keyboardkeyiconpage.cpp:127
+#, fuzzy
+msgid "Unknwon"
+msgstr "Inconnu"
+
+#: config/keyboardkeypage.cpp:55
+msgid "Click on \"%1\""
+msgstr ""
+
+#: config/keyboardkeypage.cpp:80
+msgid "Please select a device."
+msgstr ""
+
+#: config/keyboardkeypage.cpp:84
+msgid "Please wait..."
+msgstr ""
+
+#: config/keyboardkeypage.cpp:93 config/keyboardkeypage.cpp:138
+msgid "An error occurd: %1"
+msgstr ""
+
+#: config/keyboardkeypage.cpp:96
+#, fuzzy
+msgid "Wait for authentication!"
+msgstr "L'Authentification a échoué!"
+
+#: config/keyboardkeypage.cpp:105
+msgid "Press a key!"
+msgstr ""
+
+#: config/keyboardkeypage.cpp:176
+msgid "Success!"
+msgstr ""
+
+#: config/keyboardkeypage.cpp:178
+msgid ""
+"Grab failed!\n"
+"Perhaps you have selected the wrong device."
+msgstr ""
+
+#: config/mousebutton.cpp:86 config/mousebutton.cpp:103 keymon/event.cpp:66
+#: keymon/event.cpp:83
+msgid "Left-Button"
+msgstr "Bouton gauche"
+
+#: config/mousebutton.cpp:87 config/mousebutton.cpp:107 keymon/event.cpp:67
+#: keymon/event.cpp:87
+msgid "Right-Button"
+msgstr "Bouton droit"
+
+#: config/mousebutton.cpp:88 config/mousebutton.cpp:111 keymon/event.cpp:68
+#: keymon/event.cpp:91
+msgid "Middle-Button"
+msgstr "Bouton central"
+
+#: config/mousebutton.cpp:89 config/mousebutton.cpp:115 keymon/event.cpp:69
+#: keymon/event.cpp:95
+msgid "Special-Button 1"
+msgstr "Bouton spécial 1"
+
+#: config/mousebutton.cpp:90 config/mousebutton.cpp:119 keymon/event.cpp:70
+#: keymon/event.cpp:99
+msgid "Special-Button 2"
+msgstr "Bouton spécial 2"
+
+#: config/mousebutton.cpp:91 config/mousebutton.cpp:123 keymon/event.cpp:71
+#: keymon/event.cpp:103
+msgid "Wheel up"
+msgstr "Molette haut"
+
+#: config/mousebutton.cpp:92 config/mousebutton.cpp:127 keymon/event.cpp:72
+#: keymon/event.cpp:107
+msgid "Wheel down"
+msgstr "Molette bas"
+
+#: config/mousebutton.cpp:93 keymon/event.cpp:73
+msgid "No-Button"
+msgstr "Pas de bouton"
+
+#: config/mousebutton.cpp:204
+msgid "Press a mouse button..."
+msgstr "Pressez un bouton de la souris..."
+
+#: config/mouseconfig.cpp:75
+#, fuzzy
+msgid "Square"
+msgstr "Source"
+
+#: config/mouseconfig.cpp:352
+msgid "The button '%1' has already been defined"
+msgstr "Le bouton '%1' à déjà été défini"
+
+#: config/pluginconfig.cpp:60
+msgid "Record Plugins"
+msgstr "Modules externes d'enregistrement"
+
+#: config/pluginconfig.cpp:63
+msgid "Encode Plugins"
+msgstr "Modules externes d'encodage"
+
+#: devicesearchdialog.cpp:76
+msgid "No devices found."
+msgstr ""
+
+#: encodermanager.cpp:73
+msgid "Cannot load Encoder %1."
+msgstr "Impossible de charger l'encodeur %1."
+
+#: encodermanager.cpp:133
+msgid "The encoder has crashed!"
+msgstr "L'encodeur à planté!"
+
+#: keyboard/keyboardkey.cpp:78
+msgctxt "Keyboard key"
+msgid "Escape"
+msgstr ""
+
+#: keyboard/keyboardkey.cpp:79
+msgctxt "Keyboard key"
+msgid "Tab"
+msgstr ""
+
+#: keyboard/keyboardkey.cpp:80
+msgctxt "Keyboard key"
+msgid "Shift"
+msgstr ""
+
+#: keyboard/keyboardkey.cpp:81
+#, fuzzy
+msgctxt "Keyboard key"
+msgid "Alt"
+msgstr "Art"
+
+#: keyboard/keyboardkey.cpp:82
+msgctxt "Keyboard key"
+msgid "AltGr"
+msgstr ""
+
+#: keyboard/keyboardkey.cpp:83
+msgctxt "Keyboard key"
+msgid "Backtab"
+msgstr ""
+
+#: keyboard/keyboardkey.cpp:84
+#, fuzzy
+msgctxt "Keyboard key"
+msgid "Backspace"
+msgstr "Logiciel (Backend)"
+
+#: keyboard/keyboardkey.cpp:85
+msgctxt "Keyboard key"
+msgid "Return"
+msgstr ""
+
+#: keyboard/keyboardkey.cpp:86
+msgctxt "Keyboard key"
+msgid "Enter"
+msgstr ""
+
+#: keyboard/keyboardkey.cpp:87
+msgctxt "Keyboard key"
+msgid "Left"
+msgstr ""
+
+#: keyboard/keyboardkey.cpp:88
+msgctxt "Keyboard key"
+msgid "Up"
+msgstr ""
+
+#: keyboard/keyboardkey.cpp:89
+#, fuzzy
+msgctxt "Keyboard key"
+msgid "Right"
+msgstr "Hauteur"
+
+#: keyboard/keyboardkey.cpp:90
+#, fuzzy
+msgctxt "Keyboard key"
+msgid "Down"
+msgstr "Terminé!"
+
+#: keyboard/keyboardkey.cpp:91
+msgctxt "Keyboard key"
+msgid "Page up"
+msgstr ""
+
+#: keyboard/keyboardkey.cpp:92
+#, fuzzy
+msgctxt "Keyboard key"
+msgid "Page Down"
+msgstr "Descendre"
+
+#: keyboard/keyboardkey.cpp:93
+msgctxt "Keyboard key"
+msgid "Control"
+msgstr ""
+
+#: keyboard/keyboardkey.cpp:94
+msgctxt "Keyboard key"
+msgid "Meta"
+msgstr ""
+
+#: keyboard/keyboardkey.cpp:95
+msgctxt "Keyboard key"
+msgid "Caps lock"
+msgstr ""
+
+#: keyboard/keyboardkey.cpp:96
+msgctxt "Keyboard key"
+msgid "Num lock"
+msgstr ""
+
+#: keyboard/keyboardkey.cpp:97
+msgctxt "Keyboard key"
+msgid "Space"
+msgstr ""
+
+#: keyboard/keyboardkey.cpp:98
+msgctxt "Keyboard key"
+msgid "F1"
+msgstr ""
+
+#: keyboard/keyboardkey.cpp:99
+msgctxt "Keyboard key"
+msgid "F2"
+msgstr ""
+
+#: keyboard/keyboardkey.cpp:100
+msgctxt "Keyboard key"
+msgid "F3"
+msgstr ""
+
+#: keyboard/keyboardkey.cpp:101
+msgctxt "Keyboard key"
+msgid "F4"
+msgstr ""
+
+#: keyboard/keyboardkey.cpp:102
+msgctxt "Keyboard key"
+msgid "F5"
+msgstr ""
+
+#: keyboard/keyboardkey.cpp:103
+msgctxt "Keyboard key"
+msgid "F6"
+msgstr ""
+
+#: keyboard/keyboardkey.cpp:104
+msgctxt "Keyboard key"
+msgid "F7"
+msgstr ""
+
+#: keyboard/keyboardkey.cpp:105
+msgctxt "Keyboard key"
+msgid "F8"
+msgstr ""
+
+#: keyboard/keyboardkey.cpp:106
+msgctxt "Keyboard key"
+msgid "F9"
+msgstr ""
+
+#: keyboard/keyboardkey.cpp:107
+msgctxt "Keyboard key"
+msgid "F10"
+msgstr ""
+
+#: keyboard/keyboardkey.cpp:108
+msgctxt "Keyboard key"
+msgid "F11"
+msgstr ""
+
+#: keyboard/keyboardkey.cpp:109
+msgctxt "Keyboard key"
+msgid "F12"
+msgstr ""
+
+#: keyboard/keyboardkey.cpp:110
+msgctxt "Keyboard key"
+msgid "Print"
+msgstr ""
+
+#: keyboard/keyboardkey.cpp:111
+msgctxt "Keyboard key"
+msgid "Insert"
+msgstr ""
+
+#: keyboard/keyboardkey.cpp:112
+#, fuzzy
+msgctxt "Keyboard key"
+msgid "Delete"
+msgstr "Supprimer"
+
+#: keyboard/keyboardkey.cpp:113
+msgctxt "Keyboard key"
+msgid "End"
+msgstr ""
+
+#: keyboard/keyboardkey.cpp:114
+#, fuzzy
+msgctxt "Keyboard key"
+msgid "Pause"
+msgstr "Pause"
+
+#: keyboard/keyboardkey.cpp:119
+msgid "Special key"
+msgstr ""
+
+#: keymon/devicehelper.cpp:59
+#, fuzzy
+msgid "Could not open device file %1"
+msgstr "Impossible d'ouvrir le fichier: %1"
+
+#: keymonmanager.cpp:170
+msgid ""
+"An internal error has occurred.\n"
+"Error code: %1\n"
+msgstr ""
+
+#: keymonmanager.cpp:172
+msgid "You don't have the authorization to use this feature."
+msgstr ""
+
+#: libs/plugin/recorditnowplugin.cpp:88
+#, fuzzy
+msgid "Unkown error!"
+msgstr "Erreur inconnue: %1."
+
+#: libs/upload/addaccountdialog.cpp:50
+msgctxt "%1 = account name"
+msgid "Edit %1"
+msgstr "Editer %1"
+
+#: libs/upload/addaccountdialog.cpp:60
+msgid "Add a new Account"
+msgstr "Ajouter un nouveau compte"
+
+#: main.cpp:39
+msgid "Plugin based desktop recorder"
+msgstr "Enregistreur de bureau basé sur des modules externes"
+
+#: main.cpp:41
+msgid "(C) 2009 Kai Dombrowe"
+msgstr "(C) 2009 Kai Dombrowe"
+
+#: main.cpp:51
+msgid "Offset in x direction."
+msgstr "Décalage sur l'axe des abscisses"
+
+#: main.cpp:52
+msgid "Offset in y direction."
+msgstr "Décalage sur l'axe des ordonnées"
+
+#: main.cpp:53
+msgid "Width of recorded window."
+msgstr "Largeur de la fenêtre d'enregistrement"
+
+#: main.cpp:54
+msgid "Height of recorded window."
+msgstr "Hauteur de la fenêtre d'enregistrement"
+
+#: main.cpp:55
+msgid "The Backend to use. (Example: RecordMyDesktop/Screenshot)"
+msgstr "Le logiciel à utiliser. (Exemple: RecordMyDesktop/Screenshot)"
+
+#: main.cpp:56
+msgid "Wait \"time\" seconds."
+msgstr "Temps d'attente en secondes"
+
+#: main.cpp:57
+msgid "Name of recorded video/image."
+msgstr "Nom de l'image/vidéo enregistrée."
+
+#: mainwindow.cpp:235
+msgid "Record"
+msgstr "Enregistrer"
+
+#: mainwindow.cpp:243
+msgid "Pause"
+msgstr "Pause"
+
+#: mainwindow.cpp:250
+msgid "Stop"
+msgstr "Arrêter"
+
+#: mainwindow.cpp:258
+msgid "Record a Window"
+msgstr "Enregistrer une fenêtre"
+
+#. i18n: file: plugins/recorder/recordmydesktop/ui/recordmydesktop.ui:377
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_frame)
+#: mainwindow.cpp:264 rc.cpp:184
+msgid "Show Frame"
+msgstr "Afficher le cadre"
+
+#: mainwindow.cpp:272
+msgid "Freely movable"
+msgstr "Librement déplaçable"
+
+#: mainwindow.cpp:290
+msgid "Record the entire Screen"
+msgstr "Enregistrer l'écran entier"
+
+#. i18n: file: upload/ui/uploadpage.ui:17
+#. i18n: ectx: property (title), widget (QWizardPage, UploadPage)
+#: mainwindow.cpp:298 rc.cpp:566
+msgid "Upload"
+msgstr "Télécharger"
+
+#: mainwindow.cpp:304
+msgid "Zoom in"
+msgstr "Zoom avant"
+
+#: mainwindow.cpp:310
+msgid "Zoom out"
+msgstr "Zoom arrière"
+
+#: mainwindow.cpp:374
+msgid "No screen area selected."
+msgstr "Pas de zone selectionnée sur l'écran."
+
+#: mainwindow.cpp:452
+msgid "An internal error occurred!"
+msgstr ""
+
+#: mainwindow.cpp:644 mainwindow.cpp:661
+msgid "Continue"
+msgstr "Continuer"
+
+#: mainwindow.cpp:741
+msgctxt "Recording finished"
+msgid "Finished!"
+msgstr "Terminé!"
+
+#: mainwindow.cpp:760
+msgctxt "Encoding finished"
+msgid "Finished!"
+msgstr "Terminé!"
+
+#: mainwindow.cpp:823 mainwindow.cpp:838
+#: plugins/encoder/ffmpeg/ffmpegencoder.cpp:76
+#: plugins/encoder/mencoder/mencoderencoder.cpp:74
+msgctxt "%1 = file"
+msgid "%1 no such file!"
+msgstr "%1 n'existe pas!"
+
+#: mainwindow.cpp:844
+msgctxt "%1 = file, %2 = error string"
+msgid ""
+"Remove failed: %1.\n"
+"Reason: %2"
+msgstr ""
+"Echec de la suppression: %1.\n"
+"Raison: %2"
+
+#: plugins/encoder/ffmpeg/ffmpegencoderconfig.cpp:67
+#: plugins/encoder/mencoder/mencoderencoderconfig.cpp:65
+msgid "flv"
+msgstr "flv"
+
+#: plugins/encoder/ffmpeg/ffmpegencoderconfig.cpp:68
+#: plugins/encoder/mencoder/mencoderencoderconfig.cpp:66
+msgid "avi"
+msgstr "avi"
+
+#: plugins/encoder/ffmpeg/ffmpegencoderconfig.cpp:69
+#: plugins/encoder/mencoder/mencoderencoderconfig.cpp:68
+msgid "wmv"
+msgstr "wmv"
+
+#: plugins/encoder/ffmpeg/ffmpegencoderconfig.cpp:70
+msgid "mpeg"
+msgstr "mpeg"
+
+#: plugins/encoder/ffmpeg/ffmpegencoderconfig.cpp:71
+#: plugins/encoder/mencoder/mencoderencoderconfig.cpp:70
+msgid "mkv"
+msgstr "mkv"
+
+#: plugins/encoder/ffmpeg/ffmpegencoder.cpp:70
+msgid "Starting ffmpeg!"
+msgstr "Démarrage de ffmpeg!"
+
+#: plugins/encoder/ffmpeg/ffmpegencoder.cpp:98
+#: plugins/encoder/mencoder/mencoderencoder.cpp:96
+#: plugins/recorder/ffmpegrecorder/ffmpegrecorder.cpp:176
+#: plugins/recorder/recordmydesktop/recordmydesktoprecorder.cpp:191
+msgid "Paused!"
+msgstr "En pause!"
+
+#: plugins/encoder/ffmpeg/ffmpegencoder.cpp:102
+#: plugins/encoder/mencoder/mencoderencoder.cpp:100
+#: plugins/recorder/recordmydesktop/recordmydesktoprecorder.cpp:266
+msgid "Encoding started!"
+msgstr "L'encodage a démarré!"
+
+#: plugins/encoder/ffmpeg/ffmpegencoder.cpp:134
+#: plugins/encoder/mencoder/mencoderencoder.cpp:132
+msgid "Input/output file is missing."
+msgstr "Le fichier d'entrée/sortie est manquant."
+
+#: plugins/encoder/ffmpeg/ffmpegencoder.cpp:175
+#: plugins/recorder/ffmpegrecorder/ffmpegrecorder.cpp:70
+msgid ""
+"Cannot find ffmpeg!\n"
+"Please install ffmpeg or use another plugin."
+msgstr ""
+"Impossible de trouver ffmpeg!\n"
+"Merci d'installer ffmpeg ou d'utiliser un autre plugin."
+
+#: plugins/encoder/ffmpeg/ffmpegencoder.cpp:236
+#: plugins/encoder/mencoder/mencoderencoder.cpp:216
+msgctxt "%1 = progress in %"
+msgid "Encoding: %1"
+msgstr "Encodage: %1"
+
+#: plugins/encoder/ffmpeg/formatdialog.cpp:39
+#: plugins/encoder/mencoder/formatdialog.cpp:39
+msgctxt "%1 = format"
+msgid "Edit %1"
+msgstr "Edition %1"
+
+#: plugins/encoder/ffmpeg/formatdialog.cpp:43
+#: plugins/encoder/mencoder/formatdialog.cpp:43
+msgid "Format"
+msgstr "Format"
+
+#: plugins/encoder/mencoder/mencoderencoder.cpp:68
+msgid "Starting mencoder!"
+msgstr "Démarrage de  mencoder!"
+
+#: plugins/encoder/mencoder/mencoderencoder.cpp:174
+msgid ""
+"Cannot find mencoder!\n"
+"Please install mencoder or use another plugin."
+msgstr ""
+"Impossible de trouver mencoder!\n"
+"Merci d'installer mencoder ou d'utiliser un autre plugin."
+
+#: plugins/recorder/ffmpegrecorder/ffmpegrecorder.cpp:84
+#, fuzzy
+msgid "Invalid window!"
+msgstr "Licence invalide."
+
+#: plugins/recorder/ffmpegrecorder/ffmpegrecorder.cpp:133
+#, fuzzy
+msgid "Invalid command!"
+msgstr "Licence invalide."
+
+#: plugins/recorder/ffmpegrecorder/ffmpegrecorder.cpp:161
+#: plugins/recorder/ffmpegrecorder/ffmpegrecorder.cpp:180
+#: plugins/recorder/recordmydesktop/recordmydesktoprecorder.cpp:195
+#: plugins/recorder/recordmydesktop/recordmydesktoprecorder.cpp:262
+msgid "Capturing!"
+msgstr "Capture!"
+
+#: plugins/recorder/ffmpegrecorder/ffmpegrecorder.cpp:224
+#, fuzzy
+msgctxt "Video frames"
+msgid "Frames=%1"
+msgstr "Images: %1"
+
+#: plugins/recorder/ffmpegrecorder/ffmpegrecorder.cpp:239
+#, fuzzy
+msgctxt "Video size"
+msgid "Size=%1"
+msgstr "Taille"
+
+#: plugins/recorder/ffmpegrecorder/ffmpegrecorder.cpp:258
+#, fuzzy
+msgctxt "Video duration"
+msgid "Duration=%1"
+msgstr "Durée"
+
+#: plugins/recorder/ffmpegrecorder/ffmpegrecorder.cpp:271
+msgctxt "Video bitrate"
+msgid "Bitrate=%1 kbits/s"
+msgstr ""
+
+#: plugins/recorder/ffmpegrecorder/ffmpegrecorder.cpp:303
+#: plugins/recorder/recordmydesktop/recordmydesktoprecorder.cpp:335
+msgid "Internal error!"
+msgstr ""
+
+#: plugins/recorder/recordmydesktop/recordmydesktoprecorder.cpp:67
+msgid ""
+"Cannot find recordmydesktop!\n"
+"Please install recordmydesktop or use another plugin."
+msgstr ""
+"Impossible de trouver recordmydesktop!\n"
+"Merci d'installer recordmydesktop ou d'utiliser un autre plugin."
+
+#: plugins/recorder/recordmydesktop/recordmydesktoprecorder.cpp:239
+msgid "Cached: %1"
+msgstr "Capturé: %1"
+
+#: plugins/recorder/recordmydesktop/recordmydesktoprecorder.cpp:240
+msgid "Received: %1"
+msgstr "Reçu: %1"
+
+#: plugins/recorder/recordmydesktop/recordmydesktoprecorder.cpp:244
+msgid "Frames: %1"
+msgstr "Images: %1"
+
+#: plugins/recorder/recordmydesktop/recordmydesktoprecorder.cpp:257
+msgid "Encoding: %1"
+msgstr "Encodage: %1"
+
+#: plugins/recorder/recordmydesktop/recordmydesktoprecorder.cpp:264
+msgid "Shutting down.."
+msgstr "Fermeture.."
+
+#: plugins/recorder/recordmydesktop/recordmydesktoprecorder.cpp:268
+msgctxt "RecordMyDesktop is done"
+msgid "Done!"
+msgstr "Terminé!"
+
+#: plugins/recorder/recordmydesktop/recordmydesktoprecorder.cpp:272
+msgid "Cannot open file %1 for writing!"
+msgstr "Impossible d'ouvrir le fichier %1 en écriture!"
+
+#: plugins/recorder/recordmydesktop/recordmydesktoprecorder.cpp:274
+msgid "Could not create temporary directory, check your config."
+msgstr ""
+"Impossible de créer le répertoire temporaire, vérifiez votre configuration."
+
+#: plugins/recorder/recordmydesktop/recordmydesktoprecorder.cpp:276
+msgid "recordMyDesktop is not compiled with Jack support."
+msgstr "recordMyDesktop n'est pas compilé avec le support Jack."
+
+#: plugins/recorder/recordmydesktop/recordmydesktoprecorder.cpp:278
+msgid "Error while opening/configuring soundcard."
+msgstr "Erreur pendant l'ouverture/configuration de la carte son."
+
+#: plugins/recorder/recordmydesktop/recordmydesktoprecorder.cpp:280
+msgid "Window size specification out of bounds!"
+msgstr "Les spécification de taille de fenêtre sont hors limites! "
+
+#: plugins/recorder/recordmydesktop/sounddevicedialog.cpp:37
+msgid "Sound Device"
+msgstr "Périphérique de son"
+
+#: plugins/recorder/screenshot/screenshotrecorder.cpp:76
+msgid "Cheese!"
+msgstr "Cheese!"
+
+#: plugins/recorder/screenshot/screenshotrecorder.cpp:208
+msgctxt "%1 = error string"
+msgid "Cannot open output file: %1"
+msgstr "Impossible d'ouvrir le fichier de sortie: %1"
+
+#: plugins/recorder/screenshot/screenshotrecorder.cpp:215
+msgid "Cannot save image."
+msgstr "Impossible de sauvegarder l'image."
+
+#: recordermanager.cpp:136
+msgid "Cannot load Recorder %1."
+msgstr "Impossible de charger l'enregistreur %1."
+
+#: recordermanager.cpp:139
+msgid "No output file specified."
+msgstr "Le fichier de sortie n'est pas renseigné."
+
+#: recordermanager.cpp:202
+msgid "The recorder has crashed!"
+msgstr "L'enregistreur à planté!"
+
+#: timeline/timeline.cpp:79 timeline/topictreeitem.cpp:37
+msgid "Untitled"
+msgstr "Sans titre"
+
+#: timeline/timeline.cpp:219
+msgid "New Topic: <i>%1</i>"
+msgstr "Nouveau sujet: <i>%1</i>"
+
+#: timeline/timelinedock.cpp:78 timeline/topicwidget.cpp:144
+msgid "No Topic"
+msgstr "Pas de sujet"
+
+#: timeline/timelinetopicsdialog.cpp:42
+msgid "Topics"
+msgstr "Sujets"
+
+#: uploadmanager.cpp:75
+msgid "Cannot load upload plugin \"%1\"."
+msgstr "Impossible de charger le plugin de téléchargement \"%1\""
+
+#: upload/termspage.cpp:42
+#, fuzzy
+msgid ""
+"By clicking &apos;%1&apos;, you certify that you own all rights to the "
+"content or that you are authorized by the owner to make the content publicly "
+"available on %2, and that it otherwise complies with the %2 Terms of Service."
+msgstr ""
+"En cliquant sur 'Continuer', vous certifiez que vous détenez tous les droits "
+"pour ce contenu ou que vous êtes authorisé par le propriétaire de rendre ce "
+"contenu publiquement disponible sur YouTube, et qu'il se conforme aux "
+"conditions de services de YouTube disponibles à <a href='http://www.youtube."
+"com/t/terms'>http://www.youtube.com/t/terms</a>."
+
+#: upload/uploadpage.cpp:68
+msgid "Error: Plugin load failed!"
+msgstr ""
+
+#: upload/uploadpage.cpp:86
+#, fuzzy
+msgid "Authentication started..."
+msgstr "Authentification terminée..."
+
+#: upload/uploadpage.cpp:89
+#, fuzzy
+msgctxt "1 = error code"
+msgid "Error %1: Authentication failed!"
+msgstr "L'Authentification a échoué!"
+
+#: upload/uploadpage.cpp:91 upload/uploadpage.cpp:134
+#: upload/uploadpage.cpp:152
+msgid "Error message: %1"
+msgstr ""
+
+#: upload/uploadpage.cpp:119
+msgid "Authentication finished..."
+msgstr "Authentification terminée..."
+
+#: upload/uploadpage.cpp:129
+#, fuzzy
+msgid "Upload started..."
+msgstr "Téléchargement annulé."
+
+#: upload/uploadpage.cpp:132
+msgctxt "1 = error code"
+msgid "Error %1: Upload failed!"
+msgstr ""
+
+#: upload/uploadpage.cpp:150
+msgctxt "1 = error code, %2 = error message"
+msgid "Error %1: %2"
+msgstr ""
+
+#: upload/uploadpage.cpp:164
+msgctxt "%1 = video url"
+msgid "Upload finished: <a href='%1'>%1</a>"
+msgstr ""
+
+#: upload/uploadwizard.cpp:43
+#, fuzzy
+msgid "Upload Wizard"
+msgstr "Téléchargement annulé."
+
+#: upload/uploadwizard.cpp:62
+msgid "Do you want to cancel the upload?"
+msgstr ""
+
+#: upload/videopage.cpp:78
+#, fuzzy
+msgid "Cannot load: %1"
+msgstr "Impossible de charger l'encodeur %1."
+
+#: zoom/zoomdock.cpp:128
+msgid "Zoom Factor: 1:%1"
+msgstr ""
+
+#. i18n: file: libs/upload/ui/addaccount.ui:26
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: file: upload/ui/accountpage.ui:29
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:3 rc.cpp:535
+msgid "Account"
+msgstr "Compte"
+
+#. i18n: file: libs/upload/ui/addaccount.ui:33
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: file: upload/ui/accountpage.ui:42
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:6 rc.cpp:538
+msgid "Password"
+msgstr "Mot de passe"
+
+#. i18n: file: libs/upload/ui/addaccount.ui:53
+#. i18n: ectx: property (text), widget (QCheckBox, saveCheck)
+#: rc.cpp:9
+msgid "Save password with KWallet"
+msgstr "Sauver le mot de passe avec Kwallet"
+
+#. i18n: file: plugins/encoder/ffmpeg/ui/addformat.ui:26
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: file: plugins/encoder/mencoder/ui/addformat.ui:36
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:12 rc.cpp:43
+#, fuzzy
+msgid "Command:"
+msgstr "Commande"
+
+#. i18n: file: plugins/encoder/ffmpeg/ui/addformat.ui:39
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: file: plugins/encoder/ffmpeg/ui/ffmpeg.ui:105
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: file: plugins/encoder/mencoder/ui/addformat.ui:20
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: file: plugins/encoder/mencoder/ui/mencoder.ui:32
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: file: plugins/recorder/ffmpegrecorder/ui/ffmpegrecorderconfig.ui:23
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: file: plugins/recorder/screenshot/ui/screenshot.ui:139
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:15 rc.cpp:37 rc.cpp:40 rc.cpp:46 rc.cpp:67 rc.cpp:226
+#, fuzzy
+msgid "Format:"
+msgstr "Format"
+
+#. i18n: file: plugins/encoder/ffmpeg/ui/ffmpeg.ui:44
+#. i18n: ectx: property (toolTip), widget (QToolButton, addButton)
+#. i18n: file: plugins/encoder/ffmpeg/ui/ffmpeg.ui:47
+#. i18n: ectx: property (text), widget (QToolButton, addButton)
+#. i18n: file: plugins/encoder/mencoder/ui/mencoder.ui:54
+#. i18n: ectx: property (toolTip), widget (QToolButton, addButton)
+#. i18n: file: plugins/encoder/mencoder/ui/mencoder.ui:57
+#. i18n: ectx: property (text), widget (QToolButton, addButton)
+#. i18n: file: ui/frameconfig.ui:82
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
+#. i18n: file: ui/keyboardconfig.ui:108
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
+#. i18n: file: ui/mouseconfig.ui:269
+#. i18n: ectx: property (text), widget (KPushButton, addButton)
+#. i18n: file: ui/timelinetopics.ui:81
+#. i18n: ectx: property (text), widget (KPushButton, addButton)
+#: rc.cpp:18 rc.cpp:21 rc.cpp:49 rc.cpp:52 rc.cpp:272 rc.cpp:305 rc.cpp:403
+#: rc.cpp:470
+msgid "Add"
+msgstr "Ajouter"
+
+#. i18n: file: plugins/encoder/ffmpeg/ui/ffmpeg.ui:54
+#. i18n: ectx: property (toolTip), widget (QToolButton, editButton)
+#. i18n: file: plugins/encoder/ffmpeg/ui/ffmpeg.ui:57
+#. i18n: ectx: property (text), widget (QToolButton, editButton)
+#. i18n: file: plugins/encoder/mencoder/ui/mencoder.ui:64
+#. i18n: ectx: property (toolTip), widget (QToolButton, editButton)
+#. i18n: file: plugins/encoder/mencoder/ui/mencoder.ui:67
+#. i18n: ectx: property (text), widget (QToolButton, editButton)
+#: rc.cpp:24 rc.cpp:27 rc.cpp:55 rc.cpp:58
+msgid "Edit"
+msgstr "Editer"
+
+#. i18n: file: plugins/encoder/ffmpeg/ui/ffmpeg.ui:64
+#. i18n: ectx: property (toolTip), widget (QToolButton, removeButton)
+#. i18n: file: plugins/encoder/ffmpeg/ui/ffmpeg.ui:67
+#. i18n: ectx: property (text), widget (QToolButton, removeButton)
+#. i18n: file: plugins/encoder/mencoder/ui/mencoder.ui:74
+#. i18n: ectx: property (toolTip), widget (QToolButton, removeButton)
+#. i18n: file: plugins/encoder/mencoder/ui/mencoder.ui:77
+#. i18n: ectx: property (text), widget (QToolButton, removeButton)
+#. i18n: file: ui/frameconfig.ui:89
+#. i18n: ectx: property (text), widget (QPushButton, removeButton)
+#. i18n: file: ui/keyboardconfig.ui:71
+#. i18n: ectx: property (text), widget (QPushButton, removeButton)
+#. i18n: file: ui/mouseconfig.ui:331
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
+#. i18n: file: ui/timelinetopics.ui:91
+#. i18n: ectx: property (text), widget (KPushButton, removeButton)
+#: rc.cpp:30 rc.cpp:33 rc.cpp:61 rc.cpp:64 rc.cpp:275 rc.cpp:296 rc.cpp:406
+#: rc.cpp:473
+msgid "Remove"
+msgstr "Supprimer"
+
+#. i18n: file: plugins/recorder/ffmpegrecorder/ui/ffmpegrecorderconfig.ui:58
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: file: plugins/recorder/recordmydesktop/ui/recordmydesktop.ui:322
+#. i18n: ectx: property (text), widget (QLabel, lab)
+#: rc.cpp:73 rc.cpp:166
+#, fuzzy
+msgid "Video Quality:"
+msgstr "Qualité vidéo"
+
+#. i18n: file: plugins/recorder/ffmpegrecorder/ui/ffmpegrecorderconfig.ui:90
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_useCustomCommand)
+#: rc.cpp:77
+#, fuzzy
+msgid "Custom Command"
+msgstr "Commande"
+
+#. i18n: file: plugins/recorder/ffmpegrecorder/ui/ffmpegrecorderconfig.ui:124
+#. i18n: ectx: property (html), widget (KTextBrowser, ktextbrowser)
+#: rc.cpp:81
+#, no-c-format
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Tahoma'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:11pt; text-decoration: underline; color:#ff0000; background-color:"
+"#ffffff;\">Please use only if you know what you are doing!</span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
+"size:11pt; text-decoration: underline; color:#ff0000;\"></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:10pt; text-decoration: underline; color:#000000; background-color:"
+"#ffffff;\">Available Variables:</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">%{output}</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">%{XServer}</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">%{x}</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">%{y}</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">%{width}</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">%{height}</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">%{fps}</p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
+"p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:10pt; text-decoration: underline;\">Example:</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">-qscale 2 -r %{fps} -s %"
+"{width}x%{height} -i %{XServer}+%{x},%{y} -s %{width}x%{height} -f mp4 %"
+"{output}</p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
+"p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:10pt; text-decoration: underline; color:#ff0000;\">Note:</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
+"#000000;\">Don`t use %{output}.format because it would lead to an internel "
+"error.</span></p></body></html>"
+msgstr ""
+
+#. i18n: file: plugins/recorder/recordmydesktop/ui/recordmydesktop.ui:24
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: rc.cpp:103
+msgid "Image"
+msgstr "Image"
+
+#. i18n: file: plugins/recorder/recordmydesktop/ui/recordmydesktop.ui:38
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg___no_cursor)
+#: rc.cpp:106
+msgid "Disable drawing of the cursor"
+msgstr "Désactiver l'affichage du curseur"
+
+#. i18n: file: plugins/recorder/recordmydesktop/ui/recordmydesktop.ui:45
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg___no_shared)
+#: rc.cpp:109
+msgid "Disable usage of MIT-shared memory extension(Not Recommended!)"
+msgstr ""
+"Désactiver l'utilisation de l'extension \"mémoire partagée MIT\" (Non "
+"Recommandé!)"
+
+#. i18n: file: plugins/recorder/recordmydesktop/ui/recordmydesktop.ui:52
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg___full_shots)
+#: rc.cpp:112
+msgid "Take full screenshot at every frame(Not Recommended!)"
+msgstr "Prendre une capture d'écran pour chaque image(Non Recommandé!)"
+
+#. i18n: file: plugins/recorder/recordmydesktop/ui/recordmydesktop.ui:59
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg___subsampling)
+#: rc.cpp:115
+msgid "Quick subsampling"
+msgstr "Sous-échantillonnage rapide"
+
+#. i18n: file: plugins/recorder/recordmydesktop/ui/recordmydesktop.ui:69
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: rc.cpp:118
+msgid "Sound"
+msgstr "Son"
+
+#. i18n: file: plugins/recorder/recordmydesktop/ui/recordmydesktop.ui:80
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. i18n: file: ui/keyboardconfig.ui:37
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: file: ui/mouseconfig.ui:51
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:121 rc.cpp:287 rc.cpp:363
+#, fuzzy
+msgid "Device:"
+msgstr "Périphérique"
+
+#. i18n: file: plugins/recorder/recordmydesktop/ui/recordmydesktop.ui:99
+#. i18n: ectx: property (text), widget (KPushButton, deviceButton)
+#. i18n: file: ui/keyboardconfig.ui:52
+#. i18n: ectx: property (text), widget (QPushButton, searchButton)
+#. i18n: file: ui/mouseconfig.ui:73
+#. i18n: ectx: property (text), widget (KPushButton, keyMonButton)
+#: rc.cpp:125 rc.cpp:290 rc.cpp:366
+msgid "Search"
+msgstr "Recherche"
+
+#. i18n: file: plugins/recorder/recordmydesktop/ui/recordmydesktop.ui:108
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:128
+#, fuzzy
+msgid "Channels:"
+msgstr "Canaux"
+
+#. i18n: file: plugins/recorder/recordmydesktop/ui/recordmydesktop.ui:124
+#. i18n: ectx: property (specialValueText), widget (KIntNumInput, kcfg___channels)
+#. i18n: file: plugins/recorder/recordmydesktop/ui/recordmydesktop.ui:147
+#. i18n: ectx: property (specialValueText), widget (KIntNumInput, kcfg___freq)
+#. i18n: file: plugins/recorder/recordmydesktop/ui/recordmydesktop.ui:170
+#. i18n: ectx: property (specialValueText), widget (KIntNumInput, kcfg___buffer_size)
+#. i18n: file: plugins/recorder/recordmydesktop/ui/recordmydesktop.ui:193
+#. i18n: ectx: property (specialValueText), widget (KIntNumInput, kcfg___ring_buffer_size)
+#. i18n: file: plugins/recorder/screenshot/ui/screenshot.ui:200
+#. i18n: ectx: property (specialValueText), widget (KIntNumInput, kcfg_quality)
+#: rc.cpp:131 rc.cpp:137 rc.cpp:143 rc.cpp:149 rc.cpp:236
+msgid "Default"
+msgstr "Défaut"
+
+#. i18n: file: plugins/recorder/recordmydesktop/ui/recordmydesktop.ui:131
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:134
+#, fuzzy
+msgid "Frequency:"
+msgstr "Fréquence"
+
+#. i18n: file: plugins/recorder/recordmydesktop/ui/recordmydesktop.ui:154
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:140
+#, fuzzy
+msgid "Buffer size (only ALSA or OSS):"
+msgstr "Taille du tampon (ALSA ou OSS seulement)"
+
+#. i18n: file: plugins/recorder/recordmydesktop/ui/recordmydesktop.ui:177
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:146
+#, fuzzy
+msgid "Ring Buffer size (JACK only):"
+msgstr "Taille du tampon circulaire (JACK seulement)"
+
+#. i18n: file: plugins/recorder/recordmydesktop/ui/recordmydesktop.ui:200
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: rc.cpp:152
+#, fuzzy
+msgid "JACK Ports:"
+msgstr "Ports JACK"
+
+#. i18n: file: plugins/recorder/recordmydesktop/ui/recordmydesktop.ui:216
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: rc.cpp:155
+msgid "Encoding"
+msgstr "Encodage"
+
+#. i18n: file: plugins/recorder/recordmydesktop/ui/recordmydesktop.ui:249
+#. i18n: ectx: property (text), widget (QLabel, lab_2)
+#: rc.cpp:159
+#, fuzzy
+msgid "Audio Quality:"
+msgstr "Qualité audio"
+
+#. i18n: file: plugins/recorder/recordmydesktop/ui/recordmydesktop.ui:284
+#. i18n: ectx: property (text), widget (QLabel, lab_3)
+#: rc.cpp:163
+#, fuzzy
+msgid "Bitrate:"
+msgstr "Débit"
+
+#. i18n: file: plugins/recorder/recordmydesktop/ui/recordmydesktop.ui:335
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg___on_the_fly_encoding)
+#: rc.cpp:169
+msgid "Encode the audio-video data, while recording"
+msgstr "Encoder les données audio-vidéo pendant l'enregistrement"
+
+#. i18n: file: plugins/recorder/recordmydesktop/ui/recordmydesktop.ui:345
+#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
+#: rc.cpp:172
+msgid "Miscellaneous"
+msgstr "Divers"
+
+#. i18n: file: plugins/recorder/recordmydesktop/ui/recordmydesktop.ui:356
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg___no_wm_check)
+#: rc.cpp:175
+msgid "Do not try to detect the window manager."
+msgstr "Ne pas essayer de détecter le gestionnaire de fenêtres"
+
+#. i18n: file: plugins/recorder/recordmydesktop/ui/recordmydesktop.ui:363
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg___compress_cache)
+#: rc.cpp:178
+msgid "Compress Cache"
+msgstr "Cache de compression"
+
+#. i18n: file: plugins/recorder/recordmydesktop/ui/recordmydesktop.ui:370
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_followMouse)
+#: rc.cpp:181
+msgid "Follow the mouse"
+msgstr "Suivre la souris"
+
+#. i18n: file: plugins/recorder/recordmydesktop/ui/sounddevicedialog.ui:27
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
+#. i18n: file: ui/devicesearchdialog.ui:39
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
+#: rc.cpp:187 rc.cpp:248
+msgid "Device"
+msgstr "Périphérique"
+
+#. i18n: file: plugins/recorder/recordmydesktop/ui/sounddevicedialog.ui:32
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
+#. i18n: file: ui/devicesearchdialog.ui:49
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
+#: rc.cpp:190 rc.cpp:254
+msgid "Id"
+msgstr "Id"
+
+#. i18n: file: plugins/recorder/screenshot/ui/screenshot.ui:20
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_branding)
+#: rc.cpp:193
+msgid "Branding"
+msgstr "Marquage"
+
+#. i18n: file: plugins/recorder/screenshot/ui/screenshot.ui:35
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:196
+#, fuzzy
+msgid "Image:"
+msgstr "Image"
+
+#. i18n: file: plugins/recorder/screenshot/ui/screenshot.ui:48
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: file: ui/mouseconfig.ui:147
+#. i18n: ectx: property (text), widget (QLabel, opacityLabel)
+#: rc.cpp:199 rc.cpp:387
+#, fuzzy
+msgid "Opacity:"
+msgstr "Opacité"
+
+#. i18n: file: plugins/recorder/screenshot/ui/screenshot.ui:80
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:202
+#, fuzzy
+msgid "Position:"
+msgstr "Position"
+
+#. i18n: file: plugins/recorder/screenshot/ui/screenshot.ui:94
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_position)
+#: rc.cpp:205
+msgid "Top left corner"
+msgstr "Coin haut gauche"
+
+#. i18n: file: plugins/recorder/screenshot/ui/screenshot.ui:99
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_position)
+#: rc.cpp:208
+msgid "Top right corner"
+msgstr "Coin haut droit"
+
+#. i18n: file: plugins/recorder/screenshot/ui/screenshot.ui:104
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_position)
+#: rc.cpp:211
+msgid "Bottom left corner"
+msgstr "Coin bas gauche"
+
+#. i18n: file: plugins/recorder/screenshot/ui/screenshot.ui:109
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_position)
+#: rc.cpp:214
+msgid "Bottom right corner"
+msgstr "Coin bas droit"
+
+#. i18n: file: plugins/recorder/screenshot/ui/screenshot.ui:114
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_position)
+#: rc.cpp:217
+msgid "Top center"
+msgstr "Haut milieu"
+
+#. i18n: file: plugins/recorder/screenshot/ui/screenshot.ui:119
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_position)
+#: rc.cpp:220
+msgid "Bottom center"
+msgstr "Bas milieu"
+
+#. i18n: file: plugins/recorder/screenshot/ui/screenshot.ui:133
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:223
+msgid "Screenshot"
+msgstr "Capture d'écran"
+
+#. i18n: file: plugins/recorder/screenshot/ui/screenshot.ui:210
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:239
+#, fuzzy
+msgid "Quality:"
+msgstr "Qualité"
+
+#. i18n: file: plugins/recorder/screenshot/ui/screenshot.ui:220
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_drawCursor)
+#: rc.cpp:242
+msgid "Draw the cursor"
+msgstr "Afficher le curseur"
+
+#. i18n: file: recorditnowui.rc:7
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:245
+msgid "Main Toolbar"
+msgstr "Barre d'outils principale"
+
+#. i18n: file: ui/devicesearchdialog.ui:44
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
+#: rc.cpp:251
+msgid "File"
+msgstr "Fichier"
+
+#. i18n: file: ui/frameconfig.ui:23
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:257
+#, fuzzy
+msgid "Frame Sizes"
+msgstr "Afficher le cadre"
+
+#. i18n: file: ui/frameconfig.ui:31
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:260
+#, fuzzy
+msgctxt "The name of the new item"
+msgid "Name:"
+msgstr "Nom"
+
+#. i18n: file: ui/frameconfig.ui:61
+#. i18n: ectx: property (text), widget (QTreeWidget, sizeTree)
+#: rc.cpp:263
+#, fuzzy
+msgctxt "The name of the item"
+msgid "Name"
+msgstr "Nom"
+
+#. i18n: file: ui/frameconfig.ui:66
+#. i18n: ectx: property (text), widget (QTreeWidget, sizeTree)
+#: rc.cpp:266
+#, fuzzy
+msgctxt "the width of the frame"
+msgid "Width"
+msgstr "Largeur"
+
+#. i18n: file: ui/frameconfig.ui:71
+#. i18n: ectx: property (text), widget (QTreeWidget, sizeTree)
+#: rc.cpp:269
+#, fuzzy
+msgctxt "the height of the frame"
+msgid "Height"
+msgstr "Hauteur"
+
+#. i18n: file: ui/frameconfig.ui:96
+#. i18n: ectx: property (text), widget (QPushButton, upButton)
+#. i18n: file: ui/keyboardconfig.ui:78
+#. i18n: ectx: property (text), widget (QPushButton, upButton)
+#. i18n: file: ui/timelinetopics.ui:101
+#. i18n: ectx: property (text), widget (KPushButton, upButton)
+#: rc.cpp:278 rc.cpp:299 rc.cpp:476
+msgid "Move Up"
+msgstr "Monter"
+
+#. i18n: file: ui/frameconfig.ui:103
+#. i18n: ectx: property (text), widget (QPushButton, downButton)
+#. i18n: file: ui/keyboardconfig.ui:85
+#. i18n: ectx: property (text), widget (QPushButton, downButton)
+#. i18n: file: ui/timelinetopics.ui:111
+#. i18n: ectx: property (text), widget (KPushButton, downButton)
+#: rc.cpp:281 rc.cpp:302 rc.cpp:479
+msgid "Move Down"
+msgstr "Descendre"
+
+#. i18n: file: ui/keyboardconfig.ui:23
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_enableKeyboard)
+#: rc.cpp:284
+msgid "Enable The Keyboard Monitor"
+msgstr ""
+
+#. i18n: file: ui/keyboardconfig.ui:63
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:293
+msgid "Keys"
+msgstr ""
+
+#. i18n: file: ui/keyboarddocktitlewidget.ui:26
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:308
+msgid "Keyboard Monitor"
+msgstr ""
+
+#. i18n: file: ui/keyboarddock.ui:20
+#. i18n: ectx: property (windowTitle), widget (QDockWidget, KeyboardDock)
+#: rc.cpp:311
+msgctxt "@title:window"
+msgid "Keyboard Monitor"
+msgstr ""
+
+#. i18n: file: ui/keyboardkeyiconpage.ui:17
+#. i18n: ectx: property (title), widget (QWizardPage, KeyboardKeyIconPage)
+#: rc.cpp:314
+#, fuzzy
+msgid "Key Icon"
+msgstr "Icône"
+
+#. i18n: file: ui/keyboardkeyiconpage.ui:20
+#. i18n: ectx: property (subTitle), widget (QWizardPage, KeyboardKeyIconPage)
+#: rc.cpp:317
+msgid "Please select an icon"
+msgstr ""
+
+#. i18n: file: ui/keyboardkeyiconpage.ui:44
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:320
+#, fuzzy
+msgid "Search:"
+msgstr "Recherche"
+
+#. i18n: file: ui/keyboardkeyiconpage.ui:83
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:323
+msgid "Theme:"
+msgstr ""
+
+#. i18n: file: ui/keyboardkeyiconpage.ui:103
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: file: upload/ui/pluginpage.ui:76
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: file: upload/ui/videopage.ui:62
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:326 rc.cpp:554 rc.cpp:598
+#, fuzzy
+msgid "Description:"
+msgstr "Description"
+
+#. i18n: file: ui/keyboardkeyiconpage.ui:117
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:329
+msgid "Author:"
+msgstr ""
+
+#. i18n: file: ui/keyboardkeyiconpage.ui:124
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: rc.cpp:332
+#, fuzzy
+msgid "License:"
+msgstr "Licence"
+
+#. i18n: file: ui/keyboardkeyiconpage.ui:148
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:335
+msgid "Selected Icon:"
+msgstr ""
+
+#. i18n: file: ui/keyboardkeypage.ui:17
+#. i18n: ectx: property (title), widget (QWizardPage, KeyboardKeyPage)
+#: rc.cpp:338
+msgid "Key"
+msgstr ""
+
+#. i18n: file: ui/keyboardkeypage.ui:20
+#. i18n: ectx: property (subTitle), widget (QWizardPage, KeyboardKeyPage)
+#: rc.cpp:341
+msgid "Please click on Start and press a key"
+msgstr ""
+
+#. i18n: file: ui/keyboardkeypage.ui:29
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:344
+#, fuzzy
+msgid "Information"
+msgstr "Durée"
+
+#. i18n: file: ui/keyboardkeypage.ui:35
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:347
+msgid "Key:"
+msgstr ""
+
+#. i18n: file: ui/keyboardkeypage.ui:42
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:350
+#, fuzzy
+msgid "Code:"
+msgstr "Mode"
+
+#. i18n: file: ui/keyboardkeypage.ui:127
+#. i18n: ectx: property (text), widget (QPushButton, startButton)
+#: rc.cpp:354
+#, fuzzy
+msgid "Start"
+msgstr "Statut"
+
+#. i18n: file: ui/mouseconfig.ui:30
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: rc.cpp:357
+msgid "General"
+msgstr ""
+
+#. i18n: file: ui/mouseconfig.ui:36
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_showActivity)
+#: rc.cpp:360
+#, fuzzy
+msgid "Show mouse clicks during record"
+msgstr "Afficher les cliques de souris"
+
+#. i18n: file: ui/mouseconfig.ui:82
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:369
+msgid "Appearance:"
+msgstr ""
+
+#. i18n: file: ui/mouseconfig.ui:91
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_led)
+#: rc.cpp:372
+msgid "LED"
+msgstr ""
+
+#. i18n: file: ui/mouseconfig.ui:101
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_circle)
+#: rc.cpp:375
+#, fuzzy
+msgid "Circle"
+msgstr "Fichier"
+
+#. i18n: file: ui/mouseconfig.ui:110
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:378
+msgid "Visible:"
+msgstr ""
+
+#. i18n: file: ui/mouseconfig.ui:119
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_mouseWidgetAlwaysVisible)
+#: rc.cpp:381
+msgid "Always"
+msgstr ""
+
+#. i18n: file: ui/mouseconfig.ui:132
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_mouseWidgetInvisible)
+#: rc.cpp:384
+#, fuzzy
+msgid "Only during mouse clicks"
+msgstr "Afficher les cliques de souris"
+
+#. i18n: file: ui/mouseconfig.ui:157
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:390
+#, fuzzy
+msgid "Size:"
+msgstr "Taille"
+
+#. i18n: file: ui/mouseconfig.ui:183
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:393
+#, fuzzy
+msgid "Preview"
+msgstr "Périphérique"
+
+#. i18n: file: ui/mouseconfig.ui:251
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: rc.cpp:397
+#, fuzzy
+msgid "Mouse Buttons"
+msgstr "Bouton de souris"
+
+#. i18n: file: ui/mouseconfig.ui:259
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:400
+msgid "Mouse button"
+msgstr "Bouton de souris"
+
+#. i18n: file: ui/mouseconfig.ui:336
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
+#: rc.cpp:409
+msgid "Mouse Button"
+msgstr "Bouton de souris"
+
+#. i18n: file: ui/mouseconfig.ui:341
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
+#: rc.cpp:412
+msgid "Color"
+msgstr "Couleur"
+
+#. i18n: file: ui/settings.ui:23
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:415
+msgid "Behavior "
+msgstr "Comportement"
+
+#. i18n: file: ui/settings.ui:32
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_tray)
+#: rc.cpp:418
+msgid "Enable system tray icon"
+msgstr "Incruster dans la boîte à mignatures"
+
+#. i18n: file: ui/settings.ui:39
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_hideOnRecord)
+#: rc.cpp:421
+msgid "Hide RecordItNow during record"
+msgstr "Cacher RecordItNow pendant l'enregistrement"
+
+#. i18n: file: ui/settings.ui:46
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_overwrite)
+#: rc.cpp:424
+msgid "Overwrite existing files"
+msgstr "Ecraser les fichiers existants"
+
+#. i18n: file: ui/settings.ui:53
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showVideo)
+#: rc.cpp:427
+msgid "Show file after record"
+msgstr "Voir le fichier après l'enregistrement"
+
+#. i18n: file: ui/settings.ui:60
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_encode)
+#: rc.cpp:430
+msgid "Encode after record"
+msgstr "Encoder après l'enregistrement"
+
+#. i18n: file: ui/settings.ui:83
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_stayOnTop)
+#: rc.cpp:433
+msgid "Stay above all other windows during record"
+msgstr "Rester au dessus des autres fenêtres pendant l'enregistrement"
+
+#. i18n: file: ui/settings.ui:93
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:436
+msgid "Directories"
+msgstr ""
+
+#. i18n: file: ui/settings.ui:102
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:439
+#, fuzzy
+msgid "Videos:"
+msgstr "Vidéo"
+
+#. i18n: file: ui/settings.ui:119
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:442
+#, fuzzy
+msgid "Temporary files:"
+msgstr "Répertoire des fichiers temporaires:"
+
+#. i18n: file: ui/timelineconfig.ui:23
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_showTimeLine)
+#: rc.cpp:445
+#, fuzzy
+msgid "Enable The Timeline"
+msgstr "Activer la barre de temps"
+
+#. i18n: file: ui/timelineconfig.ui:41
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_timeLineStop)
+#: rc.cpp:448
+msgid "Stop recording when the timeline reaches the end"
+msgstr "Arrêter l'enregistrement quand la barre de temps a atteint la fin"
+
+#. i18n: file: ui/timelineconfig.ui:48
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_timelineNotifications)
+#: rc.cpp:451
+#, fuzzy
+msgid "Enable notifications"
+msgstr "Activer les notifications"
+
+#. i18n: file: ui/timelinetopics.ui:33
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:457
+#, fuzzy
+msgid "Total duration:"
+msgstr "Durée totale"
+
+#. i18n: file: ui/timelinetopics.ui:61
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
+#: rc.cpp:461
+msgid "Topic"
+msgstr "Sujet"
+
+#. i18n: file: ui/timelinetopics.ui:66
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
+#: rc.cpp:464
+msgid "Icon"
+msgstr "Icône"
+
+#. i18n: file: ui/timelinetopics.ui:71
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
+#: rc.cpp:467
+msgid "Duration"
+msgstr "Durée"
+
+#. i18n: file: ui/toolbarwidget.ui:65
+#. i18n: ectx: property (toolTip), widget (QLCDNumber, timerLcd)
+#: rc.cpp:482
+msgid "Timer"
+msgstr "Retardateur"
+
+#. i18n: file: ui/toolbarwidget.ui:144
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, outputRequester)
+#. i18n: file: ui/toolbarwidget.ui:150
+#. i18n: ectx: property (clickMessage), widget (KUrlRequester, outputRequester)
+#: rc.cpp:485 rc.cpp:488
+msgid "Output file"
+msgstr "Fichier de sortie"
+
+#. i18n: file: ui/toolbarwidget.ui:165
+#. i18n: ectx: property (toolTip), widget (QToolButton, playButton)
+#: rc.cpp:491
+msgid "Play/Open"
+msgstr "Lire/Ouvrir"
+
+#. i18n: file: ui/toolbarwidget.ui:175
+#. i18n: ectx: property (toolTip), widget (QToolButton, deleteButton)
+#: rc.cpp:494
+msgid "Delete"
+msgstr "Supprimer"
+
+#. i18n: file: ui/toolbarwidget.ui:214
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, fpsSpinBox)
+#: rc.cpp:497
+msgid "Frames per second"
+msgstr "Images par seconde"
+
+#. i18n: file: ui/toolbarwidget.ui:229
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, fpsSpinBox)
+#: rc.cpp:500
+msgid " FPS"
+msgstr " FPS"
+
+#. i18n: file: ui/toolbarwidget.ui:251
+#. i18n: ectx: property (toolTip), widget (CheckIcon, soundCheck)
+#: rc.cpp:503
+#, fuzzy
+msgid "Record sound"
+msgstr "Modules externes d'enregistrement"
+
+#. i18n: file: ui/toolbarwidget.ui:283
+#. i18n: ectx: property (toolTip), widget (KComboBox, backendCombo)
+#: rc.cpp:506
+msgid "Backend"
+msgstr "Logiciel (Backend)"
+
+#. i18n: file: ui/zoom.ui:23
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_zoomDockEnabled)
+#: rc.cpp:515
+msgid "Enable Zoom"
+msgstr ""
+
+#. i18n: file: ui/zoom.ui:32
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_zoomHighQuality)
+#: rc.cpp:518
+msgid "High quality"
+msgstr "Haute qualité"
+
+#. i18n: file: ui/zoom.ui:39
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:521
+#, fuzzy
+msgid "Default zoom factor:"
+msgstr "Zoom par défaut"
+
+#. i18n: file: ui/zoom.ui:65
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:525
+#, fuzzy
+msgid "Frames per second:"
+msgstr "Images par seconde"
+
+#. i18n: file: upload/ui/accountpage.ui:17
+#. i18n: ectx: property (title), widget (QWizardPage, AccountPage)
+#: rc.cpp:528
+msgid "Login"
+msgstr "Identifiants"
+
+#. i18n: file: upload/ui/accountpage.ui:20
+#. i18n: ectx: property (subTitle), widget (QWizardPage, AccountPage)
+#: rc.cpp:531
+msgid "Please enter your account and password to log in"
+msgstr ""
+
+#. i18n: file: upload/ui/accountpage.ui:59
+#. i18n: ectx: property (text), widget (QCheckBox, wallCheck)
+#: rc.cpp:541
+msgid "Remember me"
+msgstr ""
+
+#. i18n: file: upload/ui/pluginpage.ui:17
+#. i18n: ectx: property (title), widget (QWizardPage, PluginPage)
+#: rc.cpp:544
+msgid "Provider"
+msgstr ""
+
+#. i18n: file: upload/ui/pluginpage.ui:20
+#. i18n: ectx: property (subTitle), widget (QWizardPage, PluginPage)
+#: rc.cpp:547
+msgid "Please select where you want to upload your video"
+msgstr ""
+
+#. i18n: file: upload/ui/pluginpage.ui:60
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:551
+msgid "Plugin Information"
+msgstr ""
+
+#. i18n: file: upload/ui/pluginpage.ui:93
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:557
+#, fuzzy
+msgid "Version:"
+msgstr "Traduction:"
+
+#. i18n: file: upload/ui/pluginpage.ui:110
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:560
+#, fuzzy
+msgid "Name:"
+msgstr "Nom"
+
+#. i18n: file: upload/ui/termspage.ui:17
+#. i18n: ectx: property (title), widget (QWizardPage, TermsPage)
+#: rc.cpp:563
+msgid "Terms of Service "
+msgstr ""
+
+#. i18n: file: upload/ui/uploadpage.ui:26
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:570
+#, fuzzy
+msgid "Log"
+msgstr "Identifiants"
+
+#. i18n: file: upload/ui/uploadpage.ui:38
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:573
+#, fuzzy
+msgid "Upload Progress"
+msgstr "Modules externes de téléchargement"
+
+#. i18n: file: upload/ui/uploadpage.ui:44
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:576
+msgid "Total:"
+msgstr ""
+
+#. i18n: file: upload/ui/uploadpage.ui:58
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:579
+msgid "Sent:"
+msgstr ""
+
+#. i18n: file: upload/ui/uploadpage.ui:65
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:582
+msgid "Speed:"
+msgstr ""
+
+#. i18n: file: upload/ui/videopage.ui:17
+#. i18n: ectx: property (title), widget (QWizardPage, VideoPage)
+#: rc.cpp:585
+msgid "Video"
+msgstr "Vidéo"
+
+#. i18n: file: upload/ui/videopage.ui:20
+#. i18n: ectx: property (subTitle), widget (QWizardPage, VideoPage)
+#: rc.cpp:588
+msgid "Please select a video and enter the appropriate data"
+msgstr ""
+
+#. i18n: file: upload/ui/videopage.ui:32
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:592
+#, fuzzy
+msgid "Video:"
+msgstr "Vidéo"
+
+#. i18n: file: upload/ui/videopage.ui:49
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:595
+#, fuzzy
+msgid "Title:"
+msgstr "Titre"
+
+#. i18n: file: upload/ui/videopage.ui:86
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:602
+#, fuzzy
+msgid "Tags:"
+msgstr "Tags"
+
+#. i18n: file: upload/ui/videopage.ui:103
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:605
+#, fuzzy
+msgid "Category:"
+msgstr "Catégorie"
+
+#: rc.cpp:606
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Sébastien Vrillaud"
+
+#: rc.cpp:607
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kochka@gmail.com"
+
+#, fuzzy
+#~ msgid "Form"
+#~ msgstr "Format"
+
+#, fuzzy
+#~ msgid "Input Device"
+#~ msgstr "Périphérique"
+
+#~ msgctxt "%1 = source, %1 = destination, %3 = error string"
+#~ msgid ""
+#~ "Move failed: \"%1\" to \"%2\".\n"
+#~ "Reason: %3"
+#~ msgstr ""
+#~ "Echec du déplacement: %1.\n"
+#~ "Raison: %2"
+
+#~ msgctxt "%1 = file, %2 = error string"
+#~ msgid ""
+#~ "recordmydesktop: Remove failed: %1.\n"
+#~ "Reason: %2"
+#~ msgstr ""
+#~ "recordmydesktop: La suppréssion à échouée: %1.\n"
+#~ "Raison: %2"
+
+#~ msgctxt "%1 = file, %2 = error string"
+#~ msgid ""
+#~ "screenshot: Remove failed: %1.\n"
+#~ "Reason: %2"
+#~ msgstr ""
+#~ "Capture d'écran: La suppréssion à échouée: %1.\n"
+#~ "Raison: %2"
+
+#, fuzzy
+#~ msgid "Icon:"
+#~ msgstr "Icône"
+
+#~ msgid "Status"
+#~ msgstr "Statut"
+
+#, fuzzy
+#~ msgid "Width:"
+#~ msgstr "Largeur"
+
+#, fuzzy
+#~ msgid "Height:"
+#~ msgstr "Hauteur"
+
+#~ msgid "Square under the mouse cursor"
+#~ msgstr "Carré sous le curseur de souris"
+
+#~ msgid "Hide RecordItNow while recording"
+#~ msgstr "Cacher RecordItNow pendant l'enregistrement"
+
+#, fuzzy
+#~ msgid "Remove Button"
+#~ msgstr "Bouton de souris"
+
+#~ msgid "Mode"
+#~ msgstr "Mode"
+
+#~ msgid "LED next to the mouse cursor"
+#~ msgstr "Diode à coté du curseur de souris"
+
+#~ msgid "Circle under the mouse cursor"
+#~ msgstr "Cercle sous le curseur de souris"
+
+#, fuzzy
+#~ msgctxt "@title:group"
+#~ msgid "Information"
+#~ msgstr "Durée"
+
+#, fuzzy
+#~ msgctxt "@action:button"
+#~ msgid "Add"
+#~ msgstr "Ajouter"
+
+#, fuzzy
+#~ msgctxt "@action:button"
+#~ msgid "Remove"
+#~ msgstr "Supprimer"
+
+#, fuzzy
+#~ msgctxt "@action:button"
+#~ msgid "Move Up"
+#~ msgstr "Monter"
+
+#, fuzzy
+#~ msgctxt "@action:button"
+#~ msgid "Move Down"
+#~ msgstr "Descendre"
+
+#, fuzzy
+#~ msgctxt "@label:textbox"
+#~ msgid "Device:"
+#~ msgstr "Périphérique"
+
+#, fuzzy
+#~ msgctxt "@action:button"
+#~ msgid "Search"
+#~ msgstr "Recherche"
+
+#, fuzzy
+#~ msgctxt "@title"
+#~ msgid "Key Icon"
+#~ msgstr "Icône"
+
+#, fuzzy
+#~ msgctxt "@label:textbox"
+#~ msgid "Icon:"
+#~ msgstr "Icône"
+
+#, fuzzy
+#~ msgctxt "@label:textbox"
+#~ msgid "Search:"
+#~ msgstr "Recherche"
+
+#, fuzzy
+#~ msgctxt "@label"
+#~ msgid "Code:"
+#~ msgstr "Mode"
+
+#, fuzzy
+#~ msgctxt "@action:button"
+#~ msgid "Start"
+#~ msgstr "Statut"
+
+#, fuzzy
+#~ msgctxt "@label"
+#~ msgid "Device:"
+#~ msgstr "Périphérique"
+
+#, fuzzy
+#~ msgctxt "@title:group"
+#~ msgid "Mouse Buttons"
+#~ msgstr "Bouton de souris"
+
+#, fuzzy
+#~ msgctxt "@label"
+#~ msgid "Mouse button"
+#~ msgstr "Bouton de souris"
+
+#, fuzzy
+#~ msgctxt "@title:column"
+#~ msgid "Remove"
+#~ msgstr "Supprimer"
+
+#, fuzzy
+#~ msgctxt "@title:column"
+#~ msgid "Mouse Button"
+#~ msgstr "Bouton de souris"
+
+#, fuzzy
+#~ msgctxt "@title:column"
+#~ msgid "Color"
+#~ msgstr "Couleur"
+
+#, fuzzy
+#~ msgctxt "@label"
+#~ msgid "Mode"
+#~ msgstr "Mode"
+
+#, fuzzy
+#~ msgctxt "@option:radio"
+#~ msgid "LED next to the mouse cursor"
+#~ msgstr "Diode à coté du curseur de souris"
+
+#, fuzzy
+#~ msgctxt "@option:radio"
+#~ msgid "Circle under the mouse cursor"
+#~ msgstr "Cercle sous le curseur de souris"
+
+#, fuzzy
+#~ msgctxt "@label"
+#~ msgid "Opacity"
+#~ msgstr "Opacité"
+
+#, fuzzy
+#~ msgctxt "@title:group"
+#~ msgid "Behavior "
+#~ msgstr "Comportement"
+
+#, fuzzy
+#~ msgctxt "@option:check"
+#~ msgid "Hide RecordItNow during record"
+#~ msgstr "Cacher RecordItNow pendant l'enregistrement"
+
+#, fuzzy
+#~ msgctxt "@option:check"
+#~ msgid "Overwrite existing files"
+#~ msgstr "Ecraser les fichiers existants"
+
+#, fuzzy
+#~ msgctxt "@option:check"
+#~ msgid "Show file after record"
+#~ msgstr "Voir le fichier après l'enregistrement"
+
+#, fuzzy
+#~ msgctxt "@option:check"
+#~ msgid "Encode after record"
+#~ msgstr "Encoder après l'enregistrement"
+
+#, fuzzy
+#~ msgctxt "@option:check"
+#~ msgid "Stay above all other windows during record"
+#~ msgstr "Rester au dessus des autres fenêtres pendant l'enregistrement"
+
+#, fuzzy
+#~ msgctxt "@title:group"
+#~ msgid "Miscellaneous"
+#~ msgstr "Divers"
+
+#, fuzzy
+#~ msgctxt "@label"
+#~ msgid "Directory for temporary files:"
+#~ msgstr "Répertoire des fichiers temporaires:"
+
+#, fuzzy
+#~ msgctxt "@title:group"
+#~ msgid "Enable the Timeline"
+#~ msgstr "Activer la barre de temps"
+
+#, fuzzy
+#~ msgctxt "@option:check"
+#~ msgid "Stop recording when the timeline reaches the end"
+#~ msgstr "Arrêter l'enregistrement quand la barre de temps a atteint la fin"
+
+#, fuzzy
+#~ msgctxt "@option:check"
+#~ msgid "Enable Notifications"
+#~ msgstr "Activer les notifications"
+
+#, fuzzy
+#~ msgctxt "@label"
+#~ msgid "Total duration"
+#~ msgstr "Durée totale"
+
+#, fuzzy
+#~ msgctxt "@title:column"
+#~ msgid "Topic"
+#~ msgstr "Sujet"
+
+#, fuzzy
+#~ msgctxt "@title:column"
+#~ msgid "Icon"
+#~ msgstr "Icône"
+
+#, fuzzy
+#~ msgctxt "@title:column"
+#~ msgid "Duration"
+#~ msgstr "Durée"
+
+#, fuzzy
+#~ msgctxt "@option:check"
+#~ msgid "Follow the mouse"
+#~ msgstr "Suivre la souris"
+
+#, fuzzy
+#~ msgctxt "@option:check"
+#~ msgid "High quality"
+#~ msgstr "Haute qualité"
+
+#, fuzzy
+#~ msgctxt "@label"
+#~ msgid "Default zoom factor"
+#~ msgstr "Zoom par défaut"
+
+#, fuzzy
+#~ msgctxt "@title:group"
+#~ msgid "Size"
+#~ msgstr "Taille"
+
+#, fuzzy
+#~ msgctxt "@label"
+#~ msgid "Width"
+#~ msgstr "Largeur"
+
+#, fuzzy
+#~ msgctxt "@label"
+#~ msgid "Height"
+#~ msgstr "Hauteur"
+
+#~ msgid ""
+#~ "<html><font size=\"5\">blip.tv</font><br /><b>The next generation "
+#~ "television network!</html>"
+#~ msgstr ""
+#~ "<html><font size=\"5\">blip.tv</font><br /><b>La future génération de "
+#~ "réseau de télévision!</html>"
+
+#~ msgid "linux, kde"
+#~ msgstr "linux, kde"
+
+#~ msgid "My Title"
+#~ msgstr "Mon Titre"
+
+#~ msgid "Quit"
+#~ msgstr "Quitter"
+
+#~ msgid "YouTube"
+#~ msgstr "YouTube"
+
+#~ msgid ""
+#~ "<html><font size=\"5\">YouTube</font><br /><b>Upload and share your "
+#~ "videos!</html>"
+#~ msgstr ""
+#~ "<html><font size=\"5\">YouTube</font><br /><b>Téléchargez et partagez vos "
+#~ "vidéos!</html>"
+
+#~ msgid "Default color"
+#~ msgstr "Couleur par défaut"
+
+#~ msgid ""
+#~ "Grab failed!\n"
+#~ "Perhaps the button \"%1\" is already grabbed by another application."
+#~ msgstr ""
+#~ "La capture a échouée!\n"
+#~ "Peut-être que le bouton \"%1\" est déjà capturé par une autre application."
+
+#~ msgid "Grab failed!"
+#~ msgstr "La capture à échouée!"
+
+#~ msgid "Reload"
+#~ msgstr "Recharger"
+
+#~ msgid "File not found"
+#~ msgstr "Fichier introuvable"
+
+#~ msgid "The authorization has been denied by the authorization backend."
+#~ msgstr ""
+#~ "L'autorisation a été refusée par le logiciel d'autorisation (backend)."
+
+#~ msgid "The authorization has been denied."
+#~ msgstr "L'autorisation a été refusée."
+
+#~ msgid "Ok"
+#~ msgstr "Ok"
+
+#~ msgid "Uploading..."
+#~ msgstr "Téléchargement..."
+
+#~ msgctxt "%1 = link to video"
+#~ msgid "Finished: %1"
+#~ msgstr "Terminé: %1"
+
+#~ msgid "No title specified."
+#~ msgstr "Le titre n'est pas renseigné."
+
+#~ msgid "No video specified."
+#~ msgstr "La vidéo n'est pas renseignée."
+
+#~ msgid "No account/password specified."
+#~ msgstr "Le compte/mot de passe n'est pas renseigné."
+
+#~ msgid "Invalid category."
+#~ msgstr "Catégorie invalide."
+
+#~ msgctxt "%1 = file, %2 = error string"
+#~ msgid ""
+#~ "Cannot open %1.\n"
+#~ "Reason: %2"
+#~ msgstr ""
+#~ "Impossible d'ouvrir %1.\n"
+#~ "Raison: %1"
+
+#~ msgid "Invalid response from blip.tv!"
+#~ msgstr "Réponse Invalide de blip.tv!"
+
+#~ msgid "Autos & Vehicles"
+#~ msgstr "Voitures & Vehicules"
+
+#~ msgid "Business"
+#~ msgstr "Business"
+
+#~ msgid "Citizen Journalism"
+#~ msgstr "Journalisme citoyen"
+
+#~ msgid "Comedy"
+#~ msgstr "Comedie"
+
+#~ msgid "Conferences and other Events"
+#~ msgstr "Conférences and autre évènements"
+
+#~ msgid "Default Category"
+#~ msgstr "Catégorie par défaut"
+
+#~ msgid "Documentary"
+#~ msgstr "Documentaire"
+
+#~ msgid "Educational"
+#~ msgstr "Enseignement"
+
+#~ msgid "Food & Drink"
+#~ msgstr "Nourriture & Boisson"
+
+#~ msgid "Friends"
+#~ msgstr "Amis"
+
+#~ msgid "Gaming"
+#~ msgstr "Jeu"
+
+#~ msgid "Health"
+#~ msgstr "Santé"
+
+#~ msgid "Literature"
+#~ msgstr "Littérature"
+
+#~ msgid "Movies and Television"
+#~ msgstr "Films et télévision"
+
+#~ msgid "Music and Entertainment"
+#~ msgstr "Musique et divertissement"
+
+#~ msgid "Personal or Auto-biographical"
+#~ msgstr "Personnel ou auto-biographique"
+
+#~ msgid "Politics"
+#~ msgstr "Politique"
+
+#~ msgid "Religion"
+#~ msgstr "Religion"
+
+#~ msgid "School and Education"
+#~ msgstr "Ecole et éducation"
+
+#~ msgid "Science"
+#~ msgstr "Science"
+
+#~ msgid "Sports"
+#~ msgstr "Sports"
+
+#~ msgid "Technology"
+#~ msgstr "Technologie"
+
+#~ msgid "The Environment"
+#~ msgstr "Environement"
+
+#~ msgid "The Mainstream Media"
+#~ msgstr "Media principaux"
+
+#~ msgid "Travel"
+#~ msgstr "Voyage"
+
+#~ msgid "Videoblogging"
+#~ msgstr "Videoblogging"
+
+#~ msgid "Web Development and Sites"
+#~ msgstr "Développement Internet et sites"
+
+#~ msgctxt "Title"
+#~ msgid "Upload"
+#~ msgstr "Télécharger"
+
+#~ msgctxt "upload url"
+#~ msgid "Destination"
+#~ msgstr "Destination"
+
+#~ msgid "Transmit Data"
+#~ msgstr "Transfert de données"
+
+#~ msgctxt "Title"
+#~ msgid "Download"
+#~ msgstr "Téléchargement"
+
+#~ msgctxt "Upload canceled"
+#~ msgid "Canceled"
+#~ msgstr "Annulé"
+
+#~ msgid "Please authenticate first!"
+#~ msgstr "Merci de d'abord vous identifier!"
+
+#~ msgid "No such file: %1."
+#~ msgstr "Fichier manquant: %1"
+
+#~ msgid "Title too long."
+#~ msgstr "Titre trop long."
+
+#~ msgid "Description too long."
+#~ msgstr "Description trop longue."
+
+#~ msgid "Too long tags."
+#~ msgstr "Tags trop longs."
+
+#~ msgid "No description specified."
+#~ msgstr "La description n'est pas renseignée."
+
+#~ msgid "No tags specified."
+#~ msgstr "Pas de tags renseignés."
+
+#~ msgid "Tag \"%1\" is too long."
+#~ msgstr "Le tag \"%1\" est trop long."
+
+#~ msgid "Tag \"%1\" is too short."
+#~ msgstr "Le tag \"%1\" est trop court."
+
+#~ msgid "Cannot open video!"
+#~ msgstr "Impossible d'ouvrir la vidéo!"
+
+#~ msgctxt "%1 = error"
+#~ msgid ""
+#~ "Upload failed!\n"
+#~ "Response: %1"
+#~ msgstr ""
+#~ "Le téléchargement à échoué!\n"
+#~ "Réponse: %1"
+
+#~ msgid "Education"
+#~ msgstr "Education"
+
+#~ msgid "Entertainment"
+#~ msgstr "Divertissement"
+
+#~ msgid "Film & Animation"
+#~ msgstr "Film & Animation"
+
+#~ msgid "Howto & Style"
+#~ msgstr "Howto & Style"
+
+#~ msgid "Music"
+#~ msgstr "Musique"
+
+#~ msgid "News & Politics"
+#~ msgstr "Actualité & Politique"
+
+#~ msgid "Nonprofit & Activism"
+#~ msgstr "Associatif & Activisme"
+
+#~ msgid "People & Blogs"
+#~ msgstr "People & Blogs"
+
+#~ msgid "Pets & Animals"
+#~ msgstr "Animaux"
+
+#~ msgid "Science & Technology"
+#~ msgstr "Sience & Technologie"
+
+#~ msgid "Travel & Events"
+#~ msgstr "Voyage & Evénements"
+
+#~ msgid "authenticate..."
+#~ msgstr "authentification..."
+
+#~ msgid "Invalid response from YouTube!"
+#~ msgstr "Réponse invalide de YouTube!"
+
+#~ msgid "Soundcards"
+#~ msgstr "Cartes son"

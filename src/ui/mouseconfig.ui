@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MouseConfig</class>
+ <widget class="QWidget" name="MouseConfig">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>484</width>
+    <height>297</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string notr="true"/>
+  </property>
+  <property name="toolTip">
+   <string notr="true"/>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="KTabWidget" name="ktabwidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab_3">
+      <attribute name="title">
+       <string>General</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QGroupBox" name="kcfg_showActivity">
+         <property name="title">
+          <string>Show mouse clicks during record</string>
+         </property>
+         <property name="flat">
+          <bool>false</bool>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <layout class="QFormLayout" name="formLayout_4">
+          <property name="fieldGrowthPolicy">
+           <enum>QFormLayout::ExpandingFieldsGrow</enum>
+          </property>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_4">
+            <property name="text">
+             <string>Device:</string>
+            </property>
+            <property name="buddy">
+             <cstring>kcfg_keyMonDevice</cstring>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <layout class="QHBoxLayout" name="horizontalLayout_2">
+            <item>
+             <widget class="KLineEdit" name="kcfg_keyMonDevice">
+              <property name="enabled">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="KPushButton" name="keyMonButton">
+              <property name="enabled">
+               <bool>true</bool>
+              </property>
+              <property name="text">
+               <string>Search</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="label_2">
+            <property name="text">
+             <string>Appearance:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <item>
+             <widget class="QRadioButton" name="kcfg_led">
+              <property name="text">
+               <string>LED</string>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QRadioButton" name="kcfg_circle">
+              <property name="text">
+               <string>Circle</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item row="4" column="0">
+           <widget class="QLabel" name="label_5">
+            <property name="text">
+             <string>Visible:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <layout class="QHBoxLayout" name="horizontalLayout_4">
+            <item>
+             <widget class="QRadioButton" name="kcfg_mouseWidgetAlwaysVisible">
+              <property name="text">
+               <string>Always</string>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+              <property name="autoExclusive">
+               <bool>false</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QRadioButton" name="kcfg_mouseWidgetInvisible">
+              <property name="text">
+               <string>Only during mouse clicks</string>
+              </property>
+              <property name="autoExclusive">
+               <bool>false</bool>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item row="5" column="0">
+           <widget class="QLabel" name="opacityLabel">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>Opacity:</string>
+            </property>
+            <property name="buddy">
+             <cstring>kcfg_cursorOpacity</cstring>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="0">
+           <widget class="QLabel" name="label_3">
+            <property name="text">
+             <string>Size:</string>
+            </property>
+            <property name="buddy">
+             <cstring>kcfg_cursorWidgetSize</cstring>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="1">
+           <widget class="KIntSpinBox" name="kcfg_cursorWidgetSize">
+            <property name="suffix">
+             <string notr="true"/>
+            </property>
+            <property name="prefix">
+             <string/>
+            </property>
+            <property name="minimum">
+             <number>15</number>
+            </property>
+            <property name="maximum">
+             <number>100</number>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="0" colspan="2">
+           <widget class="QGroupBox" name="groupBox">
+            <property name="title">
+             <string>Preview</string>
+            </property>
+            <layout class="QGridLayout" name="gridLayout">
+             <item row="0" column="1">
+              <widget class="CursorWidget" name="cursorWidget" native="true">
+               <property name="minimumSize">
+                <size>
+                 <width>9</width>
+                 <height>9</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="0">
+              <spacer name="horizontalSpacer_2">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="0" column="2">
+              <spacer name="horizontalSpacer_3">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="5" column="1">
+           <widget class="KIntSpinBox" name="kcfg_cursorOpacity">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="suffix">
+             <string notr="true">%</string>
+            </property>
+            <property name="minimum">
+             <number>10</number>
+            </property>
+            <property name="maximum">
+             <number>100</number>
+            </property>
+            <property name="singleStep">
+             <number>10</number>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_4">
+      <attribute name="title">
+       <string>Mouse Buttons</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>Mouse button</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="KComboBox" name="buttonCombo"/>
+         </item>
+         <item>
+          <widget class="KPushButton" name="addButton">
+           <property name="text">
+            <string>Add</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QTreeWidget" name="treeWidget">
+         <property name="editTriggers">
+          <set>QAbstractItemView::NoEditTriggers</set>
+         </property>
+         <property name="showDropIndicator" stdset="0">
+          <bool>false</bool>
+         </property>
+         <property name="alternatingRowColors">
+          <bool>false</bool>
+         </property>
+         <property name="rootIsDecorated">
+          <bool>false</bool>
+         </property>
+         <property name="uniformRowHeights">
+          <bool>false</bool>
+         </property>
+         <property name="animated">
+          <bool>false</bool>
+         </property>
+         <property name="columnCount">
+          <number>3</number>
+         </property>
+         <attribute name="headerDefaultSectionSize">
+          <number>100</number>
+         </attribute>
+         <attribute name="headerMinimumSectionSize">
+          <number>22</number>
+         </attribute>
+         <attribute name="headerStretchLastSection">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="headerDefaultSectionSize">
+          <number>100</number>
+         </attribute>
+         <attribute name="headerMinimumSectionSize">
+          <number>22</number>
+         </attribute>
+         <attribute name="headerStretchLastSection">
+          <bool>true</bool>
+         </attribute>
+         <column>
+          <property name="text">
+           <string>Remove</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Mouse Button</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Color</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>KIntSpinBox</class>
+   <extends>QSpinBox</extends>
+   <header>knuminput.h</header>
+  </customwidget>
+  <customwidget>
+   <class>KPushButton</class>
+   <extends>QPushButton</extends>
+   <header>kpushbutton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>KLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>klineedit.h</header>
+  </customwidget>
+  <customwidget>
+   <class>KComboBox</class>
+   <extends>QComboBox</extends>
+   <header>kcombobox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>KTabWidget</class>
+   <extends>QTabWidget</extends>
+   <header>ktabwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CursorWidget</class>
+   <extends>QWidget</extends>
+   <header>cursorwidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>ktabwidget</tabstop>
+  <tabstop>kcfg_showActivity</tabstop>
+  <tabstop>kcfg_keyMonDevice</tabstop>
+  <tabstop>keyMonButton</tabstop>
+  <tabstop>kcfg_led</tabstop>
+  <tabstop>kcfg_circle</tabstop>
+  <tabstop>kcfg_mouseWidgetAlwaysVisible</tabstop>
+  <tabstop>kcfg_mouseWidgetInvisible</tabstop>
+  <tabstop>kcfg_cursorOpacity</tabstop>
+  <tabstop>kcfg_cursorWidgetSize</tabstop>
+  <tabstop>treeWidget</tabstop>
+  <tabstop>buttonCombo</tabstop>
+  <tabstop>addButton</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>kcfg_circle</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>opacityLabel</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>185</x>
+     <y>120</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>82</x>
+     <y>180</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>kcfg_circle</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>kcfg_cursorOpacity</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>167</x>
+     <y>119</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>134</x>
+     <y>158</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

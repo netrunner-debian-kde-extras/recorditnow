@@ -1,0 +1,9 @@
+
+recordmydesktop (tested with recordmydesktop-0.3.8.1)
+KDE-4.4
+JoschyCore: http://gitorious.org/joschy/joschy
+
+Optional:
+    ffmepg for ffmpeg encoder/recorder plugin                         // buildtime
+    mencoder (part of mplayer) for mencoder encoder plugin            // buildtime
+    XFixes for cursors in screenshots and zoom                        // buildtime

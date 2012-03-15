@@ -1,0 +1,6 @@
+FIND_PROGRAM(EXE mencoder)
+if(EXE)
+   SET(MENCODER_FOUND TRUE)
+endif(EXE)
+
+

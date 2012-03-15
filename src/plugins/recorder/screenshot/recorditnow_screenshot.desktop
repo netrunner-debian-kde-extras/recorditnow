@@ -1,0 +1,27 @@
+[Desktop Entry] 
+Encoding=UTF-8
+Name=Screenshot
+Comment=Make a Screenshot
+Icon=image-x-generic
+Type=Service                                                     
+X-KDE-ServiceTypes=RecordItNowRecorder     
+X-KDE-Library=recorditnow_screenshot
+X-KDE-PluginInfo-Name=ScreenshotRecorder
+X-KDE-PluginInfo-Category=Recorder
+X-KDE-PluginInfo-Author=Kai Dombrowe
+X-KDE-PluginInfo-Email=just89@gmx.de
+X-KDE-PluginInfo-Version=0.8
+X-KDE-PluginInfo-Website=http://recorditnow.sourceforge.net/index.html
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-EnabledByDefault=true
+
+X-RecordItNow-FPS=false
+X-RecordItNow-Sound=false
+X-RecordItNow-Pause=false
+X-RecordItNow-Stop=false
+X-RecordItNow-ConfigGroup=ScreenshotRecorder
+X-RecordItNow-DefaultFile=screenshot.${config:Format:png}
+X-RecordItNow-TimelineEnabled=false
+X-RecordItNow-MouseEnabled=false
+X-RecordItNow-KeyboardEnabled=false
+
