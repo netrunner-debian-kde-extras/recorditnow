@@ -16,6 +16,8 @@ mencoder,
 recordmydesktop
 Standards-Version: 3.9.3
 Homepage: http://recorditnow.sourceforge.net/
+Vcs-Git: git://git.debian.org/git/pkg-kde/kde-extras/recorditnow.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/recorditnow.git
 
 Package: recorditnow
 Architecture: any
