@@ -1,0 +1,11 @@
+--- a/joschy-snapshot-23-02-10/joschycore/CMakeLists.txt
++++ b/joschy-snapshot-23-02-10/joschycore/CMakeLists.txt
+@@ -35,7 +35,7 @@
+ endif(NOT WIN32)
+ 
+ # paths
+-set(JOSCHY_LIBRARY_INSTALL_DIR ${CMAKE_INSTALL_PREFIX}/lib${LIB_SUFFIX} CACHE FILEPATH "Install path for libs")
++set(JOSCHY_LIBRARY_INSTALL_DIR ${CMAKE_INSTALL_PREFIX}/lib${LIB_SUFFIX}/recorditnow CACHE FILEPATH "Install path for libs")
+ set(JOSCHY_PLUGIN_INSTALL_DIR ${JOSCHY_LIBRARY_INSTALL_DIR}/joschy CACHE FILEPATH "Install path for plugins")
+ set(JOSCHY_INCLUDE_INSTALL_DIR ${CMAKE_INSTALL_PREFIX}/include/joschycore)
+ 

@@ -1,0 +1,4 @@
+04_set_proper_bitrate_default.patch
+01_joschy_install_to_usr_lib.diff
+02_fix_ftbfs_no-add-needed.diff
+03_dont_install_header_files.diff
